@@ -1,0 +1,85 @@
+Abdelrahman Mohamed Elshurbagy
+Graduate of the Business Information Systems Department at AASTMT
+
+El Rehab, Cairo | 01112233475 | abdelrahmanelshurbagy@gmail.com
+
+LinkedIn: https://www.linkedin.com/in/abdelrahmanelshurbagy17
+
+Portfolio: https://sites.google.com/view/abdelrahman-elshurbagy/home
+
+Summary
+A graduate in business information systems who is enthusiastic about digital innovation and user-centric design.
+Competent in digital strategy, full-stack development, and UI/UX. Created platforms that increase engagement and business value from conception to launch. At ease in roles involving both business development and design.
+
+Education
+Arab Academy For Science, Technology — Sheraton Campus
+Bachelor of Business Information Systems
+Sept. 2021 – Aug. 2025
+
+Graduation Certificate
+
+Experience
+
+UI / UX Intern
+USAM – An EdTech and career platform for Arab students and professionals. (Remote)
+Apr. 2025 – Sept. 2025
+• Completed two onboarding sessions focused on personal development and company operations
+• Worked collaboratively with the team on redesigning a company website set to launch soon
+
+Freelance Full-Stack Developer
+Casa.kt – Furniture and Kitchen Manufacturing (Hybrid: Maadi / Remote)
+Apr. 2025 – Sept. 2025
+• Developed a complete desktop application using Electron, React, and Node.js with MongoDB integration
+• Created professional PDF reports integrating component details, client information, and product images
+• Analyzed business processes and requirements, then translated them into tailored technical solutions that streamlined workflows
+
+Projects
+
+ExternIT – Graduation Project
+Technologies: PHP, JavaScript, CSS, Bootstrap, phpMyAdmin
+Feb. 2024 – Jul. 2025
+• Led and managed the project from concept to implementation, coordinating tasks among team members and ensuring timely delivery
+• A task outsourcing platform connecting university students with companies for freelance-style work opportunities
+• Contributed across the full project lifecycle including market research, UI/UX design, development, and testing
+Project Documentation: https://docs.google.com/document/d/1DtnTie8enbOdJtZtVfyqS0xK-PZ-6pb3/edit?usp=drive_link&ouid=100744939960500774497&rtpof=true&sd=true
+
+Certifications
+
+React Basics | Meta – Coursera
+https://coursera.org/share/3c076774f505213b0df4ed7b0beb31a2
+
+Programming with JavaScript | Meta – Coursera
+https://coursera.org/share/2ac25e04eb3516144d979537fe73fea4
+
+Principles of UX/UI Design | Meta – Coursera
+https://coursera.org/share/c93c9a7b3f3850280472730199863804
+
+UX: Empathize, Ideate | Google – Coursera
+https://coursera.org/share/1f2bf0120d747c940fa0e0a659eaba19
+
+UI/UX Summer Camp | Sprints – Microsoft
+https://sprints.ai/en-eg/journeys/learning/ID%20-%20SPR%20-%206A2VR8/view-certificate-serial
+
+Intro to Front-End Dev | Meta – Coursera
+https://coursera.org/share/8c06891f1cb579c94c3b0932c68d78f2
+
+Fundamentals of Digital Marketing | Google Digital Garage
+https://drive.google.com/file/d/1ZJLhVsMHGZC6EuKQkvEgLh1_iyHKYnyO/view?usp=sharing
+
+Social Media Marketing | HP LIFE
+https://www.life-global.org/certificate/7345c0df-b6dc-4503-a1ee-22f40c7432cb
+
+Skills
+Languages: HTML, CSS, JavaScript, PHP, SQL
+Frameworks/Libraries: Bootstrap, jQuery, React (Basics), phpMyAdmin
+Design Tools: Figma, Wireframing, Prototyping
+Developer Tools: Git, GitHub, XAMPP, Visual Studio Code, Chrome DevTools
+Soft Skills: Collaboration, Communication, Problem Solving, UX Thinking, Adaptability
+
+Additional Links
+LinkedIn: https://www.linkedin.com/in/abdelrahmanelshurbagy17
+
+Portfolio: https://sites.google.com/view/abdelrahman-elshurbagy/home
+
+Graduation Cartificate: https://docs.google.com/document/d/1DtnTie8enbOdJtZtVfyqS0xK-PZ-6pb3/edit?usp=drive_link&ouid=100744939960500774497&rtpof=true&sd=true
+

@@ -1,85 +1,38 @@
-Abdelrahman Mohamed Elshurbagy
-Graduate of the Business Information Systems Department at AASTMT
-
-El Rehab, Cairo | 01112233475 | abdelrahmanelshurbagy@gmail.com
-
-LinkedIn: https://www.linkedin.com/in/abdelrahmanelshurbagy17
-
-Portfolio: https://sites.google.com/view/abdelrahman-elshurbagy/home
-
-Summary
-A graduate in business information systems who is enthusiastic about digital innovation and user-centric design.
-Competent in digital strategy, full-stack development, and UI/UX. Created platforms that increase engagement and business value from conception to launch. At ease in roles involving both business development and design.
-
-Education
-Arab Academy For Science, Technology — Sheraton Campus
-Bachelor of Business Information Systems
-Sept. 2021 – Aug. 2025
-
-Graduation Certificate
-
-Experience
-
-UI / UX Intern
-USAM – An EdTech and career platform for Arab students and professionals. (Remote)
-Apr. 2025 – Sept. 2025
-• Completed two onboarding sessions focused on personal development and company operations
-• Worked collaboratively with the team on redesigning a company website set to launch soon
-
-Freelance Full-Stack Developer
-Casa.kt – Furniture and Kitchen Manufacturing (Hybrid: Maadi / Remote)
-Apr. 2025 – Sept. 2025
-• Developed a complete desktop application using Electron, React, and Node.js with MongoDB integration
-• Created professional PDF reports integrating component details, client information, and product images
-• Analyzed business processes and requirements, then translated them into tailored technical solutions that streamlined workflows
-
-Projects
-
-ExternIT – Graduation Project
+Project Name: ExternIT
+Description: A task outsourcing web platform that connects university students with companies for freelance-style work opportunities. I led, designed, and developed the project from concept to full implementation — including market research, UI/UX design, front-end and back-end development, and system testing. I also managed the team and created comprehensive project documentation outlining workflows, design choices, and system architecture.
 Technologies: PHP, JavaScript, CSS, Bootstrap, phpMyAdmin
-Feb. 2024 – Jul. 2025
-• Led and managed the project from concept to implementation, coordinating tasks among team members and ensuring timely delivery
-• A task outsourcing platform connecting university students with companies for freelance-style work opportunities
-• Contributed across the full project lifecycle including market research, UI/UX design, development, and testing
-Project Documentation: https://docs.google.com/document/d/1DtnTie8enbOdJtZtVfyqS0xK-PZ-6pb3/edit?usp=drive_link&ouid=100744939960500774497&rtpof=true&sd=true
+Link: Documentation – https://docs.google.com/document/d/1DtnTie8enbOdJtZtVfyqS0xK-PZ-6pb3/edit?usp=drive_link&ouid=100744939960500774497&rtpof=true&sd=true
 
-Certifications
+Category: Full-Stack Web Platform / Product Design & Management
 
-React Basics | Meta – Coursera
-https://coursera.org/share/3c076774f505213b0df4ed7b0beb31a2
+Project Name: Casa.kt Desktop Application
+Description: A desktop application built for a furniture and kitchen manufacturing company to streamline operations. The system manages client information, product details, and automatically generates detailed PDF reports. I handled both front-end and back-end development using Electron, React, Node.js, and MongoDB. I also created technical documentation to explain system logic, database structure, and user flow.
+Technologies: Electron, React.js, Node.js, MongoDB
+Link: (Internal system – not publicly available)
+Category: Desktop Application / Full-Stack Development
 
-Programming with JavaScript | Meta – Coursera
-https://coursera.org/share/2ac25e04eb3516144d979537fe73fea4
+Project Name: DemoBlaze E-Commerce Redesign
+Description: A full UI/UX redesign of the DemoBlaze tech e-commerce website completed as part of the Sprints × Microsoft Summer UI/UX Camp. The goal was to enhance usability, visual appeal, and overall user experience. I conducted usability testing, identified key heuristic issues, designed wireframes, created a modern UI system in Figma, and delivered an interactive prototype with hover states and micro-interactions.
+Technologies / Tools: Figma, User Testing, Prototyping, Heuristic Evaluation
+Link: Figma Prototype – (insert your prototype link here)
+Category: UI/UX Design / E-Commerce Redesign
 
-Principles of UX/UI Design | Meta – Coursera
-https://coursera.org/share/c93c9a7b3f3850280472730199863804
+Project Name: AAST App – Student Services & Attendance Tracker
+Description: A UX case study redesigning the AAST mobile app to simplify navigation and integrate an attendance tracking system. Based on user research, I improved the information structure, grouped services into categories, and enhanced usability with a clearer, more accessible interface.
+Technologies: Figma, User Research, Prototyping, Surveys, Interviews
+Link: (Add your prototype or case study link here)
+Category: Mobile App UI/UX Case Study
 
-UX: Empathize, Ideate | Google – Coursera
-https://coursera.org/share/1f2bf0120d747c940fa0e0a659eaba19
+Project Name: Amazon.eg Homepage Redesign
+Description: A UI/UX case study focused on redesigning the Amazon Egypt mobile app homepage to improve usability, accessibility, and the overall shopping experience. The original interface was cluttered, inconsistent, and difficult to navigate. Through user research and testing, I identified key usability issues and redesigned the layout with better hierarchy, cleaner visuals, and clearer call-to-actions to make browsing faster and more intuitive.
+Technologies: Figma, User Research, Wireframing, Prototyping, Usability Testing
+Link: (Add your prototype or case study link here)
+Category: Mobile App UI/UX Redesign
 
-UI/UX Summer Camp | Sprints – Microsoft
-https://sprints.ai/en-eg/journeys/learning/ID%20-%20SPR%20-%206A2VR8/view-certificate-serial
+Project Name: Evently – Event Planning & Management App
+Description: A mobile app designed to simplify the process of planning and managing events. The goal was to enhance user engagement, streamline event creation, and provide intuitive navigation. Based on user research, I focused on building a clean interface with personalized feeds, simple event creation, and calendar integration to improve accessibility and user satisfaction.
+Technologies: Figma, User Research, Wireframing, Prototyping, UI Design
+Link: (Add your prototype or case study link here)
+Category: Mobile App UI/UX Design
 
-Intro to Front-End Dev | Meta – Coursera
-https://coursera.org/share/8c06891f1cb579c94c3b0932c68d78f2
-
-Fundamentals of Digital Marketing | Google Digital Garage
-https://drive.google.com/file/d/1ZJLhVsMHGZC6EuKQkvEgLh1_iyHKYnyO/view?usp=sharing
-
-Social Media Marketing | HP LIFE
-https://www.life-global.org/certificate/7345c0df-b6dc-4503-a1ee-22f40c7432cb
-
-Skills
-Languages: HTML, CSS, JavaScript, PHP, SQL
-Frameworks/Libraries: Bootstrap, jQuery, React (Basics), phpMyAdmin
-Design Tools: Figma, Wireframing, Prototyping
-Developer Tools: Git, GitHub, XAMPP, Visual Studio Code, Chrome DevTools
-Soft Skills: Collaboration, Communication, Problem Solving, UX Thinking, Adaptability
-
-Additional Links
-LinkedIn: https://www.linkedin.com/in/abdelrahmanelshurbagy17
-
-Portfolio: https://sites.google.com/view/abdelrahman-elshurbagy/home
-
-Graduation Cartificate: https://docs.google.com/document/d/1DtnTie8enbOdJtZtVfyqS0xK-PZ-6pb3/edit?usp=drive_link&ouid=100744939960500774497&rtpof=true&sd=true
-
+*note i want a page for every project of those to view*
