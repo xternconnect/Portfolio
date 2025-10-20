@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const ProjectCard = ({ project }) => {
-  const { title, description, image, tags, link, github, id } = project;
+  const { title, description, image, tags, id } = project;
   
   // Create URL-friendly ID from title
   const projectId = id || title.toLowerCase().replace(/[^a-z0-9]/g, '-').replace(/-+/g, '-').replace(/^-|-$/g, '');
