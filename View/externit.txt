@@ -1,0 +1,1564 @@
+AAST
+ExternIT project
+
+By:
+1.Mohamed Tarek 211014564
+2.Abdo Nasser 211005959
+3.Abdelrhman tamer 211014521
+4.Abdelrhman Amr 211014293
+5.Abdelrhman Mohamed 211006668
+6.Abdelrhman Osama 211014196
+Under supervision of :
+Dr. Mohamed Kamel Elhadad
+TA. Reham Mohamed
+
+
+Table of content
+Chapter 1: Introduction	7
+1.1 Introduction:	7
+1.2 Motivation:	7
+1.3 Problem Definition:	7
+1.4 Proposed System overview:	8
+1.4.1 Objectives	8
+1.4.2 Scope	8
+1.4.3 Opportunities	8
+1.5 Proposed system constraints and Assumption:	9
+1.5.1 Constraints	9
+1.5.2 Assumptions	9
+1.6 System Stakeholders	9
+1.6.1 Primary Stakeholders	9
+1.6.2 Secondary Stakeholders:	9
+1.7 Required Tools	10
+1.8 SWOT analysis:	11
+Table 1.1 swot analysis	11
+1.9 Development Approach	11
+Chapter 2: Requirement Analysis and Specifications	12
+2.1 Introduction	12
+2.2 Requirements identification:	12
+2.2.1 Interactive techniques:	12
+2.2.1.2 Surveys:	16
+2.2.2 Unobtrusive techniques:	24
+2.2.2.1. Online Search with Link Websites	24
+2.2.2.2. Similar Systems	25
+2.2.2.3. Common Points AND  Competitive Edge	25
+2.3 Obtained Requirements:	27
+Table 2.3 Obtained Requirements	27
+Chapter 3:Feasibility studies:	28
+3.1 Introduction	28
+3.2 Technical Feasibility	28
+3.3 Operational Feasibility	29
+3.4 Legal Feasibility	30
+3.5.Economic Feasibility	30
+3.5.1.System Costs	31
+Table 3.1 Personnel Costs	31
+Table 3.2 Hardware Costs	32
+Table 3.3 Website Marketing Costs	32
+Table 3.4 Utilities	32
+Table 3.5 Essential Factors	33
+3.5.2.Cost-Benefit Analysis	33
+Table 3.6 Cost-Benefit Analysis	33
+3.5.2.1.Payback Analysis:	34
+Table 3.7 Payback Analysis	34
+3.5.2.2.Internal Rate of Return (IRR):	34
+Table 3.8 IRR	34
+3.6.Risk Analysis:	35
+Table 3.9 Risk analysis	35
+3.7.Project Management Artifacts	36
+3.7.1 Gantt Chart	36
+3.7.2 PERT Chart	40
+4.1 Business Process and Functional Modeling	46
+4.1.1 Data Flow Diagram	46
+4.1.1.1 Context Level	46
+4.1.1.2 Level Zero	47
+4.1.1.3 Level 1	48
+4.1.1.4 FHD	54
+4.1.2 Use-case diagrams	55
+4.1.3 Activity diagrams	65
+4.3 Structural Modeling	66
+4.3.1 Class Diagram	66
+4.3.2 Object Diagram	67
+4.3.3 Class Responsibility Collaborator (CRC) Cards	68
+4.4 Behavioral Modeling	70
+4.4.1 Sequence diagram	70
+4.4.2 Communication diagram	71
+4.4.4 CRUDE Analysis	72
+5.1 Database Design	73
+5.1.1 ERD	73
+5.1.2 Data Dictionaries	74
+Table ‎5.1  Data Dictionaries	74
+5.1.3 Relational Data Model	77
+5.2 Human Computer Interaction (GUI Design)	78
+5.2.1 Site map	78
+5.2.2 Story board	79
+6.1 Conclusions	81
+6.2 Future Work Directions	81
+Table of Figures
+Figure ‎4.1 DFD Context Level	45
+Figure 4.2 DFD level 0	46
+Figure 4-3 DFD level 1	47
+Figure 4-3 DFD level 1 3#	49
+Figure 4-3 DFD level 1 4#	50
+Figure 4-3 DFD level 1 5#	51
+Figure 4-3 DFD level 1 5#	52
+Figure ‎4.6 Use Case Diagram	54
+Figure ‎4.6 Use Case Diagram #2	56
+Figure ‎4.6 Use Case Diagram #3	57
+Figure ‎4.6 Use Case Diagram #4	58
+Figure ‎4.6 Use Case Diagram #4	60
+Figure ‎4.6 Use Case Diagram #5	61
+Figure ‎4.6 Use Case Diagram #6	62
+Figure ‎4.7 Activity Diagram	64
+Figure ‎4.8 Class Diagram #1	65
+Figure ‎4.9 Object Diagram #1	66
+Figure ‎4.11 Sequence diagram	69
+Figure ‎4.14 Communication diagram	70
+Figure ‎5.1  ERD	72
+Figure ‎5.2 Relational Data Model (RDM)	76
+Figure ‎5.3 Site Map	77
+
+
+
+
+
+
+
+List of Tables
+Table 1.1 swot analysis	10
+Table 2.3 Obtained Requirements	26
+Table 3.1 Personnel Costs	30
+Table 3.2 Hardware Costs	31
+Table 3.3 Website Marketing Costs	31
+Table 3.4 Utilities	31
+Table 3.5 Essential Factors	32
+Table 3.6 Cost-Benefit Analysis	32
+Table 3.7 Payback Analysis	33
+Table 3.8 IRR	33
+Table 3.9 Risk analysis	34
+Table ‎5.1  Data Dictionaries	73
+
+
+
+
+
+
+
+
+
+Chapter 1: Introduction
+1.1 Introduction:
+Our project is about creating a system where companies can easily outsource tasks. Companies upload their tasks to the platform, and students can take on these tasks, complete them, and submit their work. The companies then review the submissions, choose the best one, and reward that student with payment. Other students who meet the task standards also get certified for their work, which helps them gain recognition and build their skills.
+1.2 Motivation:
+For Companies: Many businesses face challenges in finding cost-effective and creative solutions for their tasks. This platform provides a straightforward way to connect with talented students who can deliver innovative results.
+For Students: Students often struggle to get practical experience that shows off their abilities. This platform gives them a chance to solve real-world problems, gain recognition, and enhance their resumes.
+For Both: By connecting companies and students, this platform creates a win-win situation. Companies get quality work, and students get valuable experience and rewards.
+1.3 Problem Definition: 
+Outsourcing is a common practice for companies in order to save time and cut some costs, but it is not as easy as it seems. A lot of businesses struggle with the proper selection of personnel, assurance of high-quality work, or effective process management. Traditional options such as freelancers or agencies are expensive and require a lot of effort.
+But students have problems of their own. They want to get practice and show their skills, yet the chances to do that are limited. Most platforms don't recognize the effort of all contributors in a fair way. Usually, only a so-called "best" work is remunerated, while others who tried hard have nothing to show for it.
+This project attempts to fill that gap. On one side, companies seek an easier and more accessible method of outsourcing their tasks, while students seek opportunities to learn, grow, and be acknowledged for their efforts. This project thus resolves problems on either side by creating a clear and open platform that favors companies and students alike.
+1.4 Proposed System overview:
+1.4.1 Objectives
+Providing a platform that will connect the students with real-life projects in the field of study.
+Make it easier for companies to outsource tasks.
+Give students opportunities to gain experience and showcase their skills.
+Create a fair system for evaluating work and rewarding excellence.
+Recognize quality work by issuing certificates to students.
+1.4.2 Scope
+Primary Functions: The platform will enable the easiest way of uploading tasks by companies, specifying their requirements, and reviewing student submissions. Companies will also be allowed to choose the best submissions for payment, and other submissions will receive feedback.
+Student Engagement: View available tasks, submit completed work, and check the status of submissions. They will get feedback on performance and a certificate for completion of tasks correctly done, including time spent on each task.
+Task Evaluation System: The platform will also provide a clear review system wherein the companies can evaluate all submissions against set criteria. In this way, even the work of the students that is not selected will be evaluated constructively.
+1.4.3 Opportunities
+ It enhances the employability factor among students by adding practical exposure to their relevant industry.
+Saves outsourcing costs and brings fresh lots of talent onboard for companies to work on their projects.
+ Highly replicable model across geographies and industries
+Diversification of student's skill sets and professional networks.
+
+1.5 Proposed system constraints and Assumption:
+1.5.1 Constraints
+The platform has to balance demands of academic loads with the availability of work so as not to overload its students with more than they can handle.
+Companies may also have a minimum skill level requirement or minimum experience which would narrow down the pool available, maybe leaving out the younger body of students.
+Legal and contractual constraints regarding student labor and intellectual property have to be treated carefully, ethically.
+1.5.2 Assumptions
+Companies are willing to outsource tasks to students more cheaply for flexibility.
+Students want to work practically but to a great extent make some earnings during their studies.
+There may be a reception of this step within the institutions as it is in line with career building.
+The system may attract adequate demand within the two parties involved so that its viability can be achieved.
+ 
+1.6 System Stakeholders
+1.6.1 Primary Stakeholders
+Students: The clients who require flexible and practical work
+Companies: The employers who need to outsource certain tasks at a lower rate.
+1.6.2 Secondary Stakeholders:
+ Training institutions - universities and colleges can support the platform as part of their placement services.
+Government and labor organizations may be interested in compliance with labor laws and in increasing employability among students.
+Investors: If the platform is a business venture, potential investors will be interested in its success and financial viability.
+1.7 Required Tools
+We'll be building a scalable and strong platform for connecting students with companies by mixing together different frontend and backend tools, also involving design. Here are some tools and technologies:
+Frontend Development:
+ReactJS: A popular JavaScript library for creating dynamic and interactive user interfaces.
+Redux: A state management library to efficiently manage complex application state.
+React Router: For handling navigation and routing within the application.
+Material-UI or Ant Design: UI component libraries to accelerate development and ensure consistent design.
+Axios or Fetch API: For making HTTP requests to the backend API.
+Backend Development:
+PHP: A powerful and widely used language for backend development and server-side scripting.
+XAMPP: A local development environment to test and host the application locally.
+Database Design:
+MySQL: For managing the platform's relational database.
+ERDPlus or Microsoft Visio: Tools to visualize the relationships between entities (tables) and their attributes.
+Design and Prototyping:
+Figma: A popular design tool for creating user interfaces, wireframes, and prototypes.
+Canva: A versatile design tool for creating graphics, presentations, and social media content.
+Adobe Photoshop: A powerful image editing software for creating high-quality visuals.
+Additional Tools:
+VS Code: Code editors for writing and debugging code.
+npm or Yarn: Package managers for managing dependencies.
+1.8 SWOT analysis:	
+Strengths
+Weaknesses
+Flexible work model 
+Matching the needs of students.
+Companies get access to skilled talent at a lower cost as compared to regular hiring.
+Learners can gain handy skills and industry exposure at a rapid pace.
+Incurs possible mismatches between student skills and company requirements
+Limited control over the quality of work contributed by students.
+Legal and contractual issues: the labor law and contract are not very simple for international projects.
+Trust building between students and companies for remote work will take time. 
+
+
+Opportunities
+Threats
+Diversification into other industries
+Partnerships with educational institutions
+Offering other services like mentoring, skill tests and career counseling can add value to the platform.
+Competition from other platforms/outsourcing services
+Legal or regulatory hurdles to hiring students
+Economic downturns can reduce freelance demand, affecting platform revenue
+
+Table 1.1 swot analysis
+1.9 Development Approach
+The development shall be iterative and agile. The idea is to design, for this first version, a very basic platform with core functionalities that can enable matching between students and companies. The platform shall then be improved through iterations to come based on early users' feedback, students and companies, further continuous updating and enhancement based on user experience, market demand, and technological advancement.
+Chapter 2: Requirement Analysis and Specifications
+2.1 Introduction
+The main objective of this chapter is to give a concise idea about the system and the progress activities taken for the development of the work. The functional and non-functional requirements of the system, together with the user requirements, will be elaborated in detail. Also, an overall description of the system is included. In short, this chapter focuses on the analysis phase of the system development life cycle
+2.2 Requirements identification:
+2.2.1 Interactive techniques:
+To gather the required functions from both parties and gain a deeper understanding of their needs and perspectives, we are employing a multifaceted approach involving interviews with both company workers and students, as well as conducting comprehensive surveys among students. This interactive methodology allows us to gain valuable insights and feedback.
+Understanding Company Needs and Wants
+First interview
+ Interviewee: Omar ayman, Co-founder & CEO of AlNour Rubber
+Interviewer: Abdelrahman mohamed, student
+Attendees: Abdelrahman Osama, Abdo Nasser
+Date: Friday, 25 October.
+Location: Remote
+Q1
+What are the possible benefits our platform may bring to your organization?
+A1
+Need fresh graduates for New ideas that can add to the organizations,  because they have another point of view
+Q2
+Does your institution currently outsource work to other parties? If the answer is yes, please explain the nature of the outsourced work.
+A2
+Yes, overload small tasks like: Accumulate expenses, posting receipts, reports generation
+Q3
+What are your main security concerns regarding the outsourcing of tasks, and how are you addressing them?
+A3
+Security level is low in the tasks mentioned above, Hence it is outsourced
+Q4
+Does the field of study matter?
+A4
+Yes, Finance, Planning, Procurement
+Q5
+Is your company interested in hiring a student who has successfully passed tasks on our website?
+A5
+Students earn credit from outsourced tasks  to be hire by certain organizations
+
+
+Q6
+What factors would influence your decision to trust a student to complete a task on our platform?
+A6
+I need just one small casual interview to understand his knowledge and what he has to offer
+
+
+
+Second Interview
+Interviewee: Ehab el sherif, Co-founder & Executive Producer of Morph Studios
+Interviewer: Abdelrahman mohamed, student 
+Attendees: Abdelrahman Tamer, Abdelrahman Amr
+Date: Sunday, 17 November.
+Location: Remote
+Q1
+How would this software help you as an organization?
+A1
+I need recommendations to ensure that the work will be done successfully. As a freelancer, I’m often on tight deadlines, so I need to hire someone who can start immediately without spending time verifying their qualifications.
+Q2
+Is certification and GPA mandatory for you?
+A2
+It depends on the task. For example, in graphic design, if a person is creative but lacks the technical skills to execute the design, it won’t be helpful.
+Q3
+Is splitting tasks with students a compromise for you?
+A3
+It depends on the industry. In my case, as a production house, I can split tasks during the off-season. However, during peak times, I will be more selective. The idea of splitting tasks is manageable if the timing is right.
+
+
+Q4
+How would you like tasks to be displayed to ensure they reach the most relevant audience
+A4
+I prefer to post tasks visible only to those in the relevant field. 
+Q5
+Do you prefer a bidding system or choosing from completed work?
+A5
+I prefer selecting from completed work, as it allows me to directly assess the results and make more selective decisions.
+Q6
+How do you like to negotiate with students?
+A6
+I prefer to contact students via phone or at least WhatsApp. Chat within the app might be too time-consuming and less efficient, depending on the UI.
+Q7
+Who will review the tasks? And how would you rate them after completion?
+A7
+I want to be the decision-maker throughout the process, from start to finish, without needing verification from others before the final approval.
+Q8
+What level of security do you need?
+A8
+Students should only have access to the company’s information, not the client’s details.
+Q9
+What information do you need from the students?
+A9
+Contact information is sufficient.
+Q10
+Can your tasks be done remotely?
+A10
+It depends on the task. For example, video editing requires large files that are difficult to upload or download remotely. In such cases, working on-site is preferable, as I cannot trust students with sensitive materials.
+Q11
+How do you trust a student?
+A11
+ I would prefer a ranking and rating system for students to gauge their reliability and performance.
+
+
+2.2.1.2 Surveys:
+We conducted a survey to understand student needs and preferences for a platform connecting them with companies for real-world tasks. The insights gathered will help shape a user-focused system that aligns with their expectations.
+Survey Highlights: Most Selected Options
+1- Year of Study: Majority of respondents were senior students.
+
+2- Fields of Interest: Management & Technology and Computing & Information Technology were the most selected fields.
+
+
+3- Ease of Finding Internships or Part-Time Jobs: Majority answered 'Neither easy nor difficult'.
+
+
+
+
+
+4- Motivations to Participate: Majority answered 'Gaining practical experience'
+
+5- Preferred Task Types: Majority answered 'Technical (e.g., coding, engineering)'.
+
+
+
+
+
+
+
+6. Interest in Competitive Task Structures: Majority answered 'Yes'.
+
+
+7-Motivation for Certificates: Majority answered 'Somewhat motivated'.
+
+
+
+
+
+
+
+8- Preference for Personalized Task Recommendations: Majority answered 'Yes'.
+
+
+9- Preferred Payment Methods: Majority answered 'Direct bank transfer'.
+
+
+
+
+
+10- Interest in Detailed Profiles: Majority answered 'Yes, it would help me get noticed'.
+
+11- Importance of Detailed Feedback: Majority answered 'Very important, I want to learn and improve'.
+
+
+
+
+
+12- Preferred Progress Tracking Methods: Majority answered 'Visual progress bars'.
+
+13- Preferred Onboarding Methods: Majority answered 'Video guide'.
+
+
+
+
+
+14- Preferred Devices for Platform Access: Majority answered 'Laptop'.
+
+
+2.2.2 Unobtrusive techniques:
+Here is a breakdown for each requested section: Online Search with Link Website, Similar System, Common Points, and Competitive Edge:
+
+2.2.2.1. Online Search with Link Websites
+Below are platforms with links offering task outsourcing, internships, and skill certification services:
+Internshala: A comprehensive platform offering internships and training in diverse fields with certifications and stipends. 
+Handshake: Specializes in connecting students to exclusive internships and career opportunities via educational partnerships.
+.
+Skillvertex: Provides internships with real-world projects focused on career-aligned skill development.
+.
+StuMagz: A student-centered platform offering internships, volunteering, and industry-specific projects with verified profiles.
+
+2.2.2.2. Similar Systems
+Virtual Internships: Helps students work remotely on tasks or internships, providing certifications post-completion..
+MakeIntern: Offers global internship opportunities and training with flexible schedules. 
+EasyShiksha: Provides free internships and globally recognized certifications along with placement services. 
+LetsIntern: Focuses on connecting students with startup opportunities, virtual internships, and part-time projects.
+
+2.2.2.3. Common Points AND  Competitive Edge
+Access to Diverse Opportunities: All platforms offer varied opportunities ranging from technical internships to creative freelancing jobs.
+Skill Development: Every platform includes a training or mentorship aspect to enhance the practical skills of participants.
+Certification: Recognized certificates are provided to boost student resumes and career opportunities.
+Flexibility: Supports remote work, enabling students to manage academics alongside gaining professional experience.
+Networking: Many platforms include community and networking tools to connect students with industry professionals.
+Internshala: Combines training with internships, offering a complete learning-to-earning journey with stipends and industry-wide appeal.
+Handshake: Strong ties with educational institutions and exclusive postings set it apart for college students.
+Skillvertex: Hands-on projects directly align with industry needs, preparing students with practical expertise.
+StuMagz: Features a verification system for student profiles, enhancing credibility for both students and recruiters.
+Extern: Provides students real-world business challenges, offering unique exposure to actual work environments while earning certifications.
+
+
+2.3 Obtained Requirements:
+Requirements
+Student
+Company
+Functional 
+Non-Functional 
+Registration
+
+
+
+
+
+
+
+
+Task Posting and Assignment
+
+
+
+
+
+
+
+
+Task Submission
+
+
+
+
+
+
+
+
+Feedback
+
+
+
+
+
+
+
+
+Certification
+
+
+
+
+
+
+
+
+Skill Verification
+
+
+
+
+
+
+
+
+Profile Management
+
+
+
+
+
+
+
+
+Task Evaluation
+
+
+
+
+
+
+
+
+Communication Features
+
+
+
+
+
+
+
+
+Payment Integration
+
+
+
+
+
+
+
+
+Usability
+
+
+
+
+
+
+
+
+Accessibility
+
+
+
+
+
+
+
+
+Scalability
+
+
+
+
+
+
+
+
+Security
+
+
+
+
+
+
+
+
+Privacy
+
+
+
+
+
+
+
+
+
+Table 2.3 Obtained Requirements
+
+Chapter 3:Feasibility studies:
+3.1 Introduction
+Before embarking on the development of any project, it is essential to determine its practicality and viability. Feasibility studies serve as a critical step in this process, providing a thorough evaluation of the technical, financial, and operational aspects of a proposed system. For our project—an online platform enabling companies to outsource tasks to students—conducting a feasibility study is crucial to ensure that the idea can be successfully implemented and sustained.
+In this chapter, we will explore the various dimensions of feasibility, including technical, economic, operational, and legal considerations. By assessing these factors, we aim to identify potential challenges, estimate the required resources, and evaluate the system's ability to deliver value to all stakeholders. This study will also help us determine if the platform aligns with our goals of connecting companies with student talent, fostering skill development, and creating a rewarding experience for both parties.
+
+3.2 Technical Feasibility
+Technology Stack:
+Frontend Development: React.js for dynamic user interfaces, Redux for state management, and Material-UI for consistent design.
+Backend Development: Django or Node.js for secure and scalable backend operations.
+Database: MySQL for relational data storage, ensuring high performance.
+Hosting: AWS or Azure for scalable cloud infrastructure.
+Key Features:
+User authentication with multi-factor security.
+Task posting and management module.
+Payment gateway integration (Stripe or PayPal).
+Certification generation and distribution.
+
+Challenges and Solutions:
+Challenge: Ensuring data privacy.
+Solution: Implement SSL encryption and regular penetration testing.
+Challenge: Scaling the platform for high user traffic.
+Solution: Employ cloud hosting with load balancing.
+3.3 Operational Feasibility
+Target Audience:
+Primary Users: Students seeking practical experience and certifications.
+Companies: Businesses looking for cost-effective task outsourcing.
+Features for Students:
+View and apply for tasks.
+Receive certificates for completed tasks.
+Gain access to performance feedback and ratings.
+Features for Companies:
+Post and manage tasks.
+Evaluate submissions and reward the best work.
+Access a pool of diverse and affordable talent.
+Onboarding Process:
+Tutorials for companies and students.
+User-friendly dashboards for task tracking.
+Support:
+24/7 customer service via live chat and email.
+Comprehensive FAQs and knowledge base.
+
+
+
+3.4 Legal Feasibility
+Data Protection:
+Comply with data privacy regulations such as GDPR.
+Encrypt sensitive user data and publish a detailed privacy policy.
+Ownership of Work:
+Define intellectual property terms to transfer task rights to companies.
+Payment Compliance:
+Ensure adherence to local taxation and invoicing regulations.
+Liability Protection:
+Include terms to protect against disputes related to work quality or data misuse.
+3.5.Economic Feasibility
+Revenue Model:
+Subscription Fees: Charge companies a monthly fee for premium features.
+Commission: Earn a percentage from payments made to students for task completion.
+Premium Services: Offer featured tasks and detailed analytics as add-ons.
+Cost Estimates (in Egyptian Pounds):
+Initial Development: EGP 900,000–1,500,000 for building the platform, depending on complexity.
+Monthly Maintenance: EGP 30,000–75,000 for hosting, updates, and customer support.
+Marketing Budget: EGP 300,000 for the initial six months of campaigns.
+Break-Even Analysis:
+Expected to break even within 12–18 months with a steady increase in user engagement.
+Revenue from subscriptions and commissions will grow as the user base expands.
+
+3.5.1.System Costs
+Personnel Costs (EGP/month): Salaries for individuals who develop the system. The following table shows the team roles and their average salaries per month as a base salary in Egyptian Pounds:
+Role
+Quantity
+Average Monthly Salary (EGP)
+Average Annual Salary (EGP)
+Project Manager
+1
+14,000
+168,000
+Full-Stack Developer
+2
+10,000
+120,000
+UI/UX Designer
+1
+8,000
+96,000
+Accountant
+1
+9,000
+108,000
+Total
+5
+41,000
+492,000
+
+Table 3.1 Personnel Costs
+
+
+
+Hardware Costs (EGP/unit):
+Hardware
+Quantity
+Cost/Unit (EGP)
+Total Cost (EGP)
+Computer
+4
+9,500
+38,000
+Printer
+1
+5,500
+5,500
+Total
+5
+15,000
+43,500
+
+Table 3.2 Hardware Costs 
+Website Marketing Costs (EGP/month):
+Expense Factor
+Monthly Cost (EGP)
+Annual Cost (EGP)
+Social Media Marketing
+4,000
+48,000
+Search Engine Optimization
+5,000
+60,000
+Email Marketing
+2,500
+30,000
+Total
+11,500
+138,000
+
+Table 3.3 Website Marketing Costs
+Utilities (EGP/month):
+Utility
+Monthly Cost (EGP)
+Annual Cost (EGP)
+Phone Bill
+1,000
+12,000
+Internet Bundle
+1,200
+14,400
+Total
+2,200
+26,400
+
+Table 3.4 Utilities 
+
+Essential Factors (EGP/annually):
+Expense Factor
+Explanation
+Annual Cost (EGP)
+Domain Name
+The unique address that’s in the address bar of the browser.
+300
+Website Hosting
+A service that keeps the website accessible on the internet.
+800
+Maintenance
+Includes updates on CMS, and resolves website-related issues.
+2,000
+SSL Certificate
+Helps to make your website appear safe to users.
+800
+Average Total
+
+
+3,900
+
+Table 3.5 Essential Factors
+3.5.2.Cost-Benefit Analysis
+Benefit
+Explanation
+Annual Profit (EGP)
+Placing Ads
+Pay-per-click advertising through platforms like Google AdSense.
+50,000
+Affiliate Marketing
+Promoting others' services with commissions from schools, therapists, etc.
+1,078,000
+Average Total
+
+
+1,128,000
+
+Table 3.6 Cost-Benefit Analysis
+
+
+Development Cost = Hardware Costs + Personnel Costs + Utilities = 43,500 + 328,000 + 17,600 = 389,100 EGP
+Annual Operating Costs = Personnel Costs + Utilities + Marketing Costs + Essential Factors = 492,000 + 26,400 + 138,000 + 3,900 = 660,300 EGP
+Annual Benefits = 1,128,000 EGP
+Economic Lifetime of the System: Expected to last 5 years.
+Required Rate of Return: 15%	
+3.5.2.1.Payback Analysis:
+Metric
+Value
+Development Cost
+389,100 EGP
+Annual Operating Cost
+660,300 EGP
+Annual Revenue
+1,128,000 EGP
+Payback Period
+0.83 years
+
+
+10 months
+
+Table 3.7 Payback Analysis
+3.5.2.2.Internal Rate of Return (IRR):
+Metric
+Value
+Estimated Lifetime Benefits
+5,640,000 EGP
+Estimated Lifetime Costs
+3,301,500 EGP
+IRR
+70% (Lifetime)
+Annual IRR
+14%
+
+Table 3.8 IRR
+
+3.6.Risk Analysis:
+Risk Factors
+Probability
+Impact
+Importance
+Rank
+Strategy
+Data Security
+0.3
+0.8
+0.24
+High
+Risk Reduction
+System Downtime
+0.2
+0.7
+0.14
+Moderate
+Risk Avoidance
+User Acquisition
+0.5
+0.4
+0.20
+Moderate
+Risk Reduction
+Scalability Issues
+0.4
+0.5
+0.20
+Moderate
+Risk Reduction
+Compliance Failure
+0.2
+0.9
+0.18
+High
+Risk Transference
+Payment Failures
+0.3
+0.6
+0.18
+High
+Risk Reduction
+
+Table 3.9 Risk analysis
+
+3.7.Project Management Artifacts
+3.7.1 Gantt Chart
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3.7.2 PERT Chart
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4.1 Business Process and Functional Modeling
+4.1.1 Data Flow Diagram
+4.1.1.1 Context Level
+Figure ‎4.1 DFD Context Level
+
+
+
+
+
+4.1.1.2 Level Zero
+Figure 4.2 DFD level 0
+
+
+
+
+
+4.1.1.3 Level 1 
+Figure 4-3 DFD level 1
+
+
+
+
+Figure 4-3 DFD level 1 2#
+
+Figure 4-3 DFD level 1 3#
+
+
+
+
+Figure 4-3 DFD level 1 4#
+
+
+
+
+
+
+
+
+Figure 4-3 DFD level 1 5#
+
+Figure 4-3 DFD level 1 5#
+
+
+
+4.1.1.4 FHD
+Figure ‎4.4 DFD FHD
+
+4.1.2 Use-case diagrams 
+
+
+Figure ‎4.6 Use Case Diagram
+
+Use case 1:
+Use Case
+Explanation
+Manage Company Profile
+Primary functionality for managing a company's profile on the platform.
+Manage Task
+Mandatory functionality for task management by the company.
+Cancel Task
+Optional functionality triggered when the company decides to cancel a task.
+Manage Bank Transaction
+Required for handling payment-related activities by the company.
+Upload Portfolio
+Optional functionality for uploading a portfolio by a student.
+Manage Student Profile
+Primary functionality for managing a student's profile on the platform.
+Manage Dashboard
+Essential for students to interact with and track tasks, progress, or updates.
+Manage Notifications
+Core functionality to handle task updates, payment alerts, or general notifications.
+Mark Notifications as Read
+Optional functionality for students to track or mark notifications as read.
+ 
+
+
+
+
+Figure ‎4.6 Use Case Diagram #2
+Use case 2:
+Use Case
+Explanation
+Manage Company Profile
+Primary functionality for managing all aspects of a company's profile on the platform.
+Submit Company Information
+Mandatory step where the company provides necessary information to create or update its profile.
+Login
+Required step for the company to authenticate its access to the system.
+Authenticate Company
+Verifies the company's credentials to ensure secure access and profile management.
+Create Company Profile
+Mandatory step to establish a company's presence on the platform.
+Notify Company
+Optional functionality triggered after creating the company profile to confirm completion or send updates.
+
+
+Figure ‎4.6 Use Case Diagram #3
+Use case 3:
+Use Case
+Explanation
+Manage Student Profile
+The primary functionality for managing student-related information.
+Create Student Profile
+Mandatory for managing a profile as it creates the initial profile.
+View Student Profile
+Required for students to access and review their profile information.
+Track Profile Progress
+Necessary to monitor the completeness and progress of the profile.
+Update Student Qualifications
+Essential for keeping the profile up-to-date with new qualifications.
+Upload Student Work
+Allows students to add projects or assignments to their profile.
+Delete Student Profile
+Enables students to remove their profile from the system if no longer needed.
+Add Profile Photo
+Optional functionality to enhance the profile with a profile photo.
+
+
+
+Figure ‎4.6 Use Case Diagram #4
+Use case 4:
+Use Case
+Explanation
+Manage Task
+The primary functionality that oversees all task-related processes.
+Submit Task
+Mandatory for students to submit their work as part of task management.
+Upload Task Details
+Required for companies to provide task details to initiate the process.
+Review Contributions
+Necessary to assess and review student submissions for task quality.
+Evaluate Contributions
+Required to judge the quality and relevance of the submitted work.
+Mark Contributions
+Tracks the status of contributions after evaluation.
+Issue Certificates
+Optional functionality that awards certificates based on the evaluation of contributions.
+Earn Money
+Optional functionality triggered if financial rewards are to be distributed to contributors.
+Confirm Task Contribution
+Confirms the final submission of tasks by contributors.
+Notify Completed Task Contribution
+Optional notification triggered after task completion is confirmed.
+
+
+
+Figure ‎4.6 Use Case Diagram #4
+
+Use case 5:
+Use Case
+Explanation
+Manage Student Dashboard
+The primary functionality that oversees all dashboard-related actions for students and companies.
+Update Student Credentials
+Essential for maintaining up-to-date student information on the dashboard.
+Access Completed Tasks
+Required for students to view their completed tasks on the platform.
+Retrieve Achievement Certificates
+Necessary for students to access their earned certificates after completing tasks.
+Monitor Payment Records
+Enables students to track payment details for completed tasks.
+View Task Performance Metrics
+Allows students to analyze and track their performance metrics for completed tasks.
+Manage Task Alerts
+Optional functionality for handling task reminders and notifications.
+Endorse Student Work
+Optional action for endorsing or validating the student’s work, triggered by specific conditions.
+
+
+
+
+Figure ‎4.6 Use Case Diagram #5
+
+
+Use case 6:
+Use Case
+Explanation
+Bank Transaction
+The primary functionality for handling all bank-related transactions.
+Initiate Payment
+A mandatory step to start the payment process.
+Verify Payment Details
+Essential to validate the accuracy and completeness of payment information.
+Process Transaction
+A core step to execute the actual payment process.
+Update Transaction Records
+Required to maintain accurate logs of all transaction activities in the system.
+Generate Payment Confirmation
+An optional step to confirm the success or failure of the processed transaction.
+
+
+Figure ‎4.6 Use Case Diagram #6
+
+Use case 7:
+Use Case
+Explanation
+Manage Notification
+The primary functionality that handles all notification-related processes for both students and companies.
+Send Task Alerts
+A mandatory step to notify students about task updates or new tasks.
+Notify Payment Updates
+Required to inform students and companies about changes in payment status.
+Send Certificate Notifications
+Necessary to notify students when achievement certificates are available.
+Manage Notification Logs
+Essential to log and store notification-related activities for auditing and tracking purposes.
+Track Notification Read Status
+Optional functionality to track whether the notifications sent have been read by recipients.
+
+4.1.3 Activity diagrams 
+
+Figure ‎4.7 Activity Diagram
+
+4.3 Structural Modeling
+4.3.1 Class Diagram
+
+Figure ‎4.8 Class Diagram #1
+
+4.3.2 Object Diagram
+
+Figure ‎4.9 Object Diagram #1
+
+
+4.3.3 Class Responsibility Collaborator (CRC) Cards
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4.4 Behavioral Modeling
+4.4.1 Sequence diagram 
+
+Figure ‎4.11 Sequence diagram
+
+4.4.2 Communication diagram 
+
+Figure ‎4.14 Communication diagram
+
+Company uploads a task to Task.
+Task saves the task details in Submission.
+Submission allows the Task to be selected.
+Task sends a command to Submission to submit the work.
+Submission sends the work back to Task for review.
+Submission processes the certification and communicates with Certification.
+Certification processes the payment and communicates with Payment.
+Payment evaluates the work and sends the evaluation results to Submission.
+4.4.4 CRUDE Analysis 
+Actor/Entity
+Company
+Student
+Task
+Task Contributions
+Payment
+Certificates
+Notifications
+Company
+C, R, U, D, E
+R
+C, R, U, D, E
+R
+R, E
+R
+C, R, U, E
+Student
+R
+C, R, U, D, E
+R, E
+C, R, U, D, E
+R, E
+C, R, E
+R, U, E
+Task Management Process
+R, U, E
+R, U, E
+C, R, U, D, E
+C, R, U, D, E
+R, U, E
+C, R, E
+C, R, U, E
+Payment Process
+R, E
+R, E
+R
+R, E
+C, R, U, D, E
+R, E
+R, E
+Notification System
+R, E
+R, E
+R, E
+R, E
+R, E
+R, E
+C, R, U, D, E
+
+Table ‎4‑3 CRUD Matrix
+
+5.1 Database Design
+5.1.1 ERD 
+
+ Figure ‎5.1  ERD
+
+
+
+
+5.1.2 Data Dictionaries
+Entity: User
+Attribute
+Nullability
+Data Type	
+Index
+Description
+User_ID
+Not null	
+INT (10)
+Primary Key
+Unique identifier for the user.
+Name
+Not null	
+VARCHAR (50)
+
+
+Full name of the user.
+Email
+Not null	
+VARCHAR (50)
+
+
+Email address of the user.
+Password
+Not null	
+VARCHAR (30)
+
+
+Encrypted password.
+Role
+Not null	
+VARCHAR (20)
+
+
+User role (e.g., Student, Company).
+Date_Created
+Not null	
+DATE
+
+
+Date the user account was created.
+
+Table ‎5.1  Data Dictionaries
+Entity: Student
+Attribute
+Nullability
+Data Type	
+Index
+Description
+Student_ID	
+Not null	
+INT (10)
+Primary Key
+Unique identifier for a student.
+University
+Not null	
+VARCHAR (100)	
+
+
+Name of the university.
+Major
+Not null	
+VARCHAR (50)
+
+
+Major field of study.
+Graduation_Year
+Not null	
+YEAR
+
+
+Expected or actual graduation year.
+University_Card
+Not null	
+VARCHAR(255)
+
+
+ID or card associated with the student.
+
+
+Entity: Company
+Attribute
+Nullability
+Data Type	
+Index
+Description
+Company_ID
+Not null	
+INT (10)
+Primary Key
+Unique identifier for a company.
+Company_Name	
+Not null	
+VARCHAR (100)	
+
+
+Name of the company.
+Industry
+Not null	
+VARCHAR (50)
+
+
+Industry type of the company.
+Website
+Not null	
+VARCHAR (100)	
+
+
+Company's official website URL.
+Contact_Info
+Not null	
+VARCHAR (50)	
+
+
+Contact information (e.g., email/phone).
+Tax_Number	
+
+
+INT (16)
+
+
+Tax identification number of the company.
+
+Entity: Tasks
+Attribute
+Nullability
+Data Type	
+Index
+Description
+Task_ID
+Not null	
+INT (10)	
+Primary Key	
+Unique identifier for a task.
+Title
+Not null	
+VARCHAR (50)	
+
+
+Title of the task.
+Description
+Not null	
+TEXT	
+
+
+Detailed description of the task.
+Deadline	
+Not null	
+DATE
+
+
+Deadline for task completion.
+Required_Skills	
+Not null	
+VARCHAR (200)	
+
+
+Skills required to complete the task.
+
+
+Entity: Submissions
+Attribute
+Nullability
+Data Type	
+Index
+Description
+Submission_ID
+Not null	
+INT (10)	
+Primary Key	
+Unique identifier for a submission.
+Task_ID
+Not null	
+INT (10)
+Foreign Key	
+References the associated task.
+Status
+Not null	
+TEXT	
+
+
+Detailed description of the task.
+Submission_File
+Not null	
+VARCHAR (100)	
+
+
+File submitted for the task.
+Submitted_Date
+Not null
+DATE
+
+
+Date of submission.
+
+Entity: Payment
+Attribute
+Nullability
+Data Type	
+Index
+Description
+Payment_ID
+Not null	
+INT (10)	
+Primary Key	
+Unique identifier for a payment.
+Submission_ID
+Not null	
+INT (10)
+Foreign Key	
+References the associated submission.
+Amount
+Not null	
+DECIMAL (10,2)	
+
+
+Payment amount.
+
+
+Payment_Date	
+Not null	
+DATE
+
+
+Date of the payment.
+
+
+Payment_Method
+Not null
+DATE
+
+
+Method of payment (e.g., credit card, bank transfer).
+
+
+5.1.3 Relational Data Model
+
+Figure ‎5.2 Relational Data Model (RDM)
+
+5.2 Human Computer Interaction (GUI Design)
+5.2.1 Site map
+Figure ‎5.3 Site Map
+
+
+
+
+
+
+5.2.2 Story board
+
+This is the Homepage, serving as the entry point for users to understand the platform and access key actions such as logging in or registering.
+The "Login" button redirects to the Login/Registration Page.
+The "Register Now" button directs users to the Registration Form Page.
+
+
+
+This is the Login/Registration Page, where users can select their role and proceed to log in or register.
+Selecting "For Students" redirects to the Student Registration Form Page or Student Dashboard after login.
+Selecting "For Companies" redirects to the Company Registration Form Page or Company Dashboard after login.
+A back arrow allows users to return to the Homepage.
+
+.
+
+
+
+
+This is the Registration Form Page, allowing users to sign up by entering their details.
+Students completing the form are redirected to the Featured Tasks Page (Student Dashboard).
+Companies completing the form are redirected to the Company Dashboard.
+A back arrow lets users return to the Login/Registration Page.
+
+
+
+This is the Featured Tasks Page, which acts as the main dashboard for students, showcasing available tasks for completion.
+Clicking "View" on a task redirects to the Task Details Page.
+The header includes links to informational pages and settings for profile management or logout.
+
+
+
+Featured Tasks Page
+Purpose:
+This page serves as the main dashboard for students, showcasing a list of tasks available for completion. It is designed to provide quick access to tasks and their details.
+Description: The layout is divided into three primary sections:
+Header: Contains the student's profile information, such as their name and endorsement level.
+Includes navigation links ("How it works," "About us," "Help") and an icon for account settings or login.
+Task Listings: Displays featured tasks in a list format.
+Each task includes the following details:
+Task name
+Company name
+Short description of the task
+A "View" button to access more details.
+Search and Filters:
+Located on the right-hand side.
+Provides a search bar for finding specific tasks.
+Includes filters to refine search results (e.g., by category, difficulty, or deadline).
+Navigation:
+Students can click the "View" button on any task to open a detailed task description.
+The header links lead to informational or support pages.
+
+The storyboard "Submit a Proposal" starts when the user selects one of the tasks from the task list; this opens the view of the task detail. Then, clicking the "Submit a Proposal" button opens a pop-up form where the user can insert a proposal description, attach supportive documentation, and complete other information. After reviewing the information, the user can click either "Submit" to send the proposal or "Cancel" to discard it. The system allows input validation: in case some fields are not filled in, an error message appears, and in case of successful submission, a confirmation message appears. After that, the user is forwarded to the task list or task details page for further navigation.
+
+The confirmation of submission screen must be able to indicate to a user whether or not the submitted proposal has been successful through the checkmark icon and, for clarity, "Your submission was added." One "Back to Dashboard" button will take the user back to the main interface where he/she can take further actions. Other navigation options such as "How it Works," "About Us," and "Help" are at the top right for further guidance. This page gives a successful confirmation and makes sure that navigation back to the platform is smooth.
+
+
+
+
+
+
+
+
+6.1 Conclusions
+In summary, this project effectively meets the essential demand for a streamlined platform that connects businesses and students for task outsourcing. Utilizing essential features like managing company and student profiles, publishing tasks and tracking contributions, integrating payments, and handling notifications, the system provides a smooth and user-friendly experience for both stakeholders. 
+The incorporation of essential processes such as certificate creation, task assessment, and dashboard analytics illustrates the platform's dedication to improving students' professional development while fulfilling the operational requirements of businesses. Moreover, the incorporation of a strong notification system and payment transaction module guarantees transparency and dependability across the platform. 
+This initiative not only simplifies task outsourcing but also promotes a reciprocal relationship between businesses and students, allowing for skill enhancement, career exposure, and effective task completion. Upcoming versions of the system may investigate enhanced functionalities like AI-driven task suggestions, live collaboration tools, and more comprehensive analytics for better decision-making and user contentment. 
+This platform establishes a robust basis for linking academia and industry by tackling real-world issues and offering creative solutions, fostering improved collaboration and productivity. 
+6.2 Future Work Directions
+Enabling users to showcase completed tasks and certificates directly on professional networks.
+Exploring integration with external tools and platforms such as LinkedIn, payment gateways, and e-learning systems.
+Conducting pilot testing with real companies and students to gather actionable feedback.
+Identifying and resolving any usability or functionality issues to improve the overall user experience.
+Beginning in the development of a mobile application to ensure accessibility and convenience for users on the go.
+Develop audit logs to track all activities for improved transparency and accountability.
+Introduce real-time communication and collaboration features, such as chat systems, file sharing, and task progress tracking.
+
+References
+Frontend Development Tools
+ReactJS: https://reactjs.org
+Redux: https://redux.js.org
+Material-UI: https://mui.com
+React Router: https://reactrouter.com
+Backend Development Tools
+PHP: https://www.php.net
+XAMPP: https://www.apachefriends.org/index.html
+Database Design
+MySQL: https://www.mysql.com
+Design and Prototyping
+Figma: https://www.figma.com
+Canva: https://www.canva.com
+Adobe Photoshop: https://www.adobe.com/products/photoshop.html
+Task Outsourcing Platforms (Inspiration)
+Internshala: https://internshala.com
+Handshake: https://joinhandshake.com
+Skillvertex: https://skillvertex.in
+StuMagz: https://stumagz.com
+Other Referenced Systems
+Virtual Internships: https://virtualinternships.com
+MakeIntern: https://makeintern.com
+EasyShiksha: https://easyshiksha.com
+LetsIntern: https://letsintern.com
+Development and Hosting Resources
+Visual Studio Code: https://code.visualstudio.com
+npm: https://www.npmjs.com
+AWS Hosting: https://aws.amazon.com
+Surveys and Interviews
+Insights from interviews with Omar Ayman (AlNour Rubber) and Ehab El Sherif (Morph Studios).
+Survey conducted among students, summarized in the project document.
+Academic Guidance
+Supervised by Dr. Mohamed Kamel Elhadad and TA Reham Mohamed, AAST.
+
