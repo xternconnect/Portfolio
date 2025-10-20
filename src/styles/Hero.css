@@ -233,6 +233,14 @@
 
 /* Mobile Styles */
 @media (max-width: 768px) {
+  .hero {
+    padding-top: 70px; /* Account for fixed navbar */
+  }
+
+  .hero-container {
+    padding-top: 2rem; /* Additional spacing from navbar */
+  }
+
   .hero-content {
     grid-template-columns: 1fr;
     gap: 2rem;
