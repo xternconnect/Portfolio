@@ -31,9 +31,10 @@ Portfolio/
 ### 🔧 Netlify Configuration
 
 **Build Settings:**
-- **Build Command**: `npm run build`
+- **Build Command**: `npm ci && npm run build`
 - **Publish Directory**: `build`
-- **Node Version**: 18
+- **Node Version**: 18.20.8
+- **NPM Version**: 10.8.2
 
 **Features Configured:**
 - ✅ React Router support with redirects
@@ -126,6 +127,11 @@ npx serve -s build
 - **Images not loading**: Ensure paths start with `/`
 - **EmailJS not working**: Check credentials
 - **Slow loading**: Images are optimized
+- **Build failed - Node version mismatch**: 
+  - ✅ Fixed with `.nvmrc` file (18.20.8)
+  - ✅ Fixed with `engines` in package.json
+  - ✅ Fixed with `NODE_VERSION` in netlify.toml
+  - ✅ Using `npm ci` for faster, reliable builds
 
 ### 🎉 Your Portfolio Features
 
@@ -150,3 +156,4 @@ npx serve -s build
 **Your portfolio is production-ready! 🚀**
 
 **Next step**: Run `npm run build` and deploy to Netlify!
+

@@ -23,3 +23,4 @@ Import assets in your components like this:
 ```javascript
 import projectImage from '../Assets/images/projects/project1.jpg';
 ```
+
