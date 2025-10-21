@@ -67,43 +67,203 @@ const ProjectDetail = () => {
     },
     "casakt": {
       id: "casakt",
-      title: "Casa.kt Desktop Application",
+      title: "Casa.kt Order Management System",
       category: "Full-Stack Development",
-      description: "Desktop application for furniture manufacturing company to streamline operations. Manages client information, product details, and generates detailed PDF reports using Electron, React, Node.js, and MongoDB.",
-      image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=500&h=300&fit=crop",
-      tags: ["Electron", "React", "Node.js", "MongoDB", "Desktop App"]
+      description: "A comprehensive desktop application designed for furniture and kitchen manufacturing businesses, featuring bilingual support (English/Arabic) and component-based product configuration with professional PDF report generation.",
+      longDescription: "Casa.kt is a comprehensive desktop application designed for furniture and kitchen manufacturing businesses. The system features bilingual support (English/Arabic) with RTL text rendering, component-based product management with detailed dimension tracking, and professional PDF report generation with Arabic font support. Built using Electron, React, and Node.js, it provides a complete order management solution with client information management, product catalog with 6 component types, and automated report generation.",
+      image: "/assets/casa kt/create order.png",
+      tags: ["Electron", "React", "Node.js", "MongoDB", "Bilingual Support", "PDF Generation", "Desktop App"],
+      link: null,
+      linkText: null,
+      github: null,
+      technologies: [
+        { name: "React 18", purpose: "Modern functional components with hooks for frontend development" },
+        { name: "Bootstrap 5", purpose: "Responsive CSS framework for modern UI design" },
+        { name: "Electron", purpose: "Cross-platform desktop application framework" },
+        { name: "Node.js", purpose: "JavaScript runtime environment for backend development" },
+        { name: "Express.js", purpose: "Web application framework for RESTful API" },
+        { name: "MongoDB", purpose: "NoSQL database with Mongoose ODM for data storage" },
+        { name: "JWT", purpose: "JSON Web Token authentication for secure access" },
+        { name: "jsPDF + html2canvas", purpose: "PDF generation with Arabic font support" },
+        { name: "Multer", purpose: "File upload middleware for image management" },
+        { name: "React Router", purpose: "Client-side routing for navigation" }
+      ],
+      challenges: [
+        "Implementing Arabic text rendering with RTL support in PDFs",
+        "Designing flexible component-based product specification system",
+        "Creating seamless Electron app with automatic server startup",
+        "Implementing secure image upload and storage system",
+        "Developing complete translation system with language switching",
+        "Building client-side PDF generation with Arabic support",
+        "Managing complex data structures for component-based products"
+      ],
+      solutions: [
+        "Implemented proper RTL support and Arabic font rendering in PDFs",
+        "Designed flexible product specification system with 6 component types",
+        "Created seamless Electron app with automatic server startup",
+        "Implemented secure file upload with validation and storage",
+        "Developed complete translation system with language switching",
+        "Built client-side PDF generation with Arabic support using jsPDF",
+        "Used MongoDB with Mongoose for efficient data management"
+      ],
+      results: [
+        "Streamlined order processing for furniture manufacturing businesses",
+        "Reduced manual work through automated PDF generation",
+        "Improved accuracy with component-based product specifications",
+        "Enhanced customer service with professional bilingual reports",
+        "Provided offline capability for businesses with limited internet access",
+        "Created scalable database architecture for future enhancements",
+        "Implemented secure authentication and file management system"
+      ],
+      screenshots: [
+        { url: "/assets/casa kt/homepage.png", alt: "Casa.kt Homepage", caption: "Main dashboard showing the application overview and navigation" },
+        { url: "/assets/casa kt/all units.png", alt: "Product Management Interface", caption: "Component-based product creation and editing with dimension tracking for all units" },
+        { url: "/assets/casa kt/create unit form.png", alt: "Create Unit Form", caption: "Form interface for creating new product units with detailed specifications" },
+        { url: "/assets/casa kt/create order.png", alt: "Order Creation Interface", caption: "Split-screen interface for client information and product selection" },
+        { url: "/assets/casa kt/all orders.png", alt: "Order Management Dashboard", caption: "Complete order history and editing capabilities with search functionality" },
+        { url: "/assets/casa kt/PDF.png", alt: "PDF Report Generation", caption: "Professional bilingual reports with Arabic support and company branding" }
+      ],
+      presentationDay: []
     },
     "demoblaze": {
       id: "demoblaze",
       title: "DemoBlaze E-Commerce Redesign",
       category: "UI/UX Design",
       description: "Complete UI/UX redesign of DemoBlaze tech e-commerce website. Enhanced usability, visual appeal, and user experience through usability testing, wireframing, and interactive prototyping.",
+      longDescription: "A comprehensive UI/UX redesign project for DemoBlaze, a technology e-commerce platform. The project focused on improving user experience, visual hierarchy, and overall usability through extensive user research, wireframing, and interactive prototyping.",
       image: "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=500&h=300&fit=crop",
-      tags: ["Figma", "UI/UX Design", "E-Commerce", "Prototyping"]
+      tags: ["Figma", "UI/UX Design", "E-Commerce", "Prototyping"],
+      technologies: [
+        { name: "Figma", purpose: "UI/UX design and prototyping" },
+        { name: "User Research", purpose: "Understanding user needs and pain points" },
+        { name: "Wireframing", purpose: "Creating initial layout structures" },
+        { name: "Prototyping", purpose: "Interactive design validation" }
+      ],
+      challenges: [
+        "Improving cluttered interface design",
+        "Enhancing product discovery experience",
+        "Optimizing checkout flow",
+        "Creating mobile-responsive design"
+      ],
+      solutions: [
+        "Conducted user interviews and usability testing",
+        "Redesigned information architecture",
+        "Implemented cleaner visual hierarchy",
+        "Created interactive prototypes for validation"
+      ],
+      results: [
+        "Improved user experience and satisfaction",
+        "Enhanced visual appeal and brand consistency",
+        "Streamlined navigation and product discovery",
+        "Increased conversion rates through better UX"
+      ],
+      screenshots: [],
+      presentationDay: []
     },
     "amazon-eg": {
       id: "amazon-eg",
       title: "Amazon.eg Homepage Redesign",
       category: "UI/UX Design",
       description: "Mobile app homepage redesign focused on improving usability, accessibility, and shopping experience. Addressed cluttered interface with better hierarchy, cleaner visuals, and clearer call-to-actions.",
+      longDescription: "A mobile app homepage redesign project for Amazon.eg, focusing on improving usability, accessibility, and overall shopping experience. The project addressed interface clutter through better visual hierarchy, cleaner design elements, and more intuitive call-to-action placement.",
       image: "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=500&h=300&fit=crop",
-      tags: ["Figma", "Mobile Design", "User Research", "Usability Testing"]
+      tags: ["Figma", "Mobile Design", "User Research", "Usability Testing"],
+      technologies: [
+        { name: "Figma", purpose: "Mobile UI design and prototyping" },
+        { name: "User Research", purpose: "Understanding mobile user behavior" },
+        { name: "Usability Testing", purpose: "Validating design improvements" },
+        { name: "Accessibility", purpose: "Ensuring inclusive design practices" }
+      ],
+      challenges: [
+        "Reducing interface clutter and information overload",
+        "Improving mobile navigation experience",
+        "Enhancing accessibility for diverse users",
+        "Optimizing call-to-action visibility"
+      ],
+      solutions: [
+        "Conducted comprehensive user research and testing",
+        "Implemented cleaner visual hierarchy",
+        "Redesigned navigation patterns for mobile",
+        "Enhanced accessibility features and guidelines"
+      ],
+      results: [
+        "Improved mobile user experience and engagement",
+        "Enhanced accessibility and usability",
+        "Reduced cognitive load for users",
+        "Increased conversion rates through better CTAs"
+      ],
+      screenshots: [],
+      presentationDay: []
     },
     "aast-app": {
       id: "aast-app",
       title: "AAST App Redesign",
       category: "UI/UX Design",
       description: "UX case study redesigning the AAST mobile app to simplify navigation and integrate attendance tracking. Improved information structure and enhanced usability based on user research.",
+      longDescription: "A comprehensive UX case study focused on redesigning the AAST (Arab Academy for Science, Technology & Maritime Transport) mobile application. The project aimed to simplify navigation, integrate attendance tracking features, and improve overall information structure based on extensive user research and usability testing.",
       image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=500&h=300&fit=crop",
-      tags: ["Figma", "Mobile UX", "User Research", "Case Study"]
+      tags: ["Figma", "Mobile UX", "User Research", "Case Study"],
+      technologies: [
+        { name: "Figma", purpose: "Mobile app design and prototyping" },
+        { name: "User Research", purpose: "Understanding student needs and pain points" },
+        { name: "Usability Testing", purpose: "Validating design solutions" },
+        { name: "Information Architecture", purpose: "Restructuring app navigation and content" }
+      ],
+      challenges: [
+        "Complex navigation structure causing user confusion",
+        "Lack of integrated attendance tracking",
+        "Poor information hierarchy and organization",
+        "Limited accessibility features"
+      ],
+      solutions: [
+        "Conducted user interviews with students and faculty",
+        "Redesigned navigation with simplified structure",
+        "Integrated attendance tracking functionality",
+        "Improved information architecture and visual hierarchy"
+      ],
+      results: [
+        "Simplified navigation and improved user flow",
+        "Enhanced attendance tracking capabilities",
+        "Better information organization and accessibility",
+        "Increased user satisfaction and engagement"
+      ],
+      screenshots: [],
+      presentationDay: []
     },
     "evently": {
       id: "evently",
       title: "Evently - Event Planning App",
       category: "UI/UX Design",
       description: "Mobile app designed to simplify event planning and management. Features clean interface with personalized feeds, simple event creation, and calendar integration for improved user engagement.",
+      longDescription: "Evently is a mobile application designed to simplify event planning and management for users. The app features a clean, intuitive interface with personalized feeds, streamlined event creation processes, and seamless calendar integration to enhance user engagement and simplify the event planning experience.",
       image: "https://images.unsplash.com/photo-1558655146-d09347e92766?w=500&h=300&fit=crop",
-      tags: ["Figma", "Mobile App", "UI Design", "User Research"]
+      tags: ["Figma", "Mobile App", "UI Design", "User Research"],
+      technologies: [
+        { name: "Figma", purpose: "Mobile app design and prototyping" },
+        { name: "User Research", purpose: "Understanding event planning user needs" },
+        { name: "UI Design", purpose: "Creating intuitive and engaging interfaces" },
+        { name: "Calendar Integration", purpose: "Seamless scheduling and event management" }
+      ],
+      challenges: [
+        "Simplifying complex event planning workflows",
+        "Creating intuitive calendar integration",
+        "Designing personalized user feeds",
+        "Ensuring cross-platform consistency"
+      ],
+      solutions: [
+        "Conducted user research with event planners and attendees",
+        "Designed streamlined event creation flow",
+        "Implemented clean and intuitive calendar interface",
+        "Created personalized feed algorithms for better engagement"
+      ],
+      results: [
+        "Simplified event planning process for users",
+        "Enhanced user engagement through personalized feeds",
+        "Improved calendar integration and scheduling",
+        "Created scalable design system for future features"
+      ],
+      screenshots: [],
+      presentationDay: []
     }
   };
 
@@ -192,7 +352,7 @@ const ProjectDetail = () => {
           </section>
 
           {/* Technologies */}
-          {project.technologies.length > 0 && (
+          {project.technologies && project.technologies.length > 0 && (
             <section id="technologies" className="project-section">
               <h2>Technologies Used</h2>
               <div className="technologies-grid">
@@ -207,7 +367,7 @@ const ProjectDetail = () => {
           )}
 
           {/* Challenges and Solutions */}
-          {project.challenges.length > 0 && project.solutions.length > 0 && (
+          {project.challenges && project.challenges.length > 0 && project.solutions && project.solutions.length > 0 && (
             <section id="challenges-solutions" className="project-section">
               <h2>Challenges & Solutions</h2>
               <div className="challenges-solutions-container">
@@ -232,7 +392,7 @@ const ProjectDetail = () => {
           )}
 
           {/* Results */}
-          {project.results.length > 0 && (
+          {project.results && project.results.length > 0 && (
             <section id="results" className="project-section">
               <h2>Results</h2>
               <ul className="results-list">
@@ -244,7 +404,7 @@ const ProjectDetail = () => {
           )}
 
           {/* Screenshots */}
-          {project.screenshots.length > 0 && (
+          {project.screenshots && project.screenshots.length > 0 && (
             <section id="screenshots" className="project-section">
               <h2>Project Screenshots</h2>
               <div className="screenshots-grid">
@@ -308,25 +468,25 @@ const ProjectDetail = () => {
           <span>📋</span>
           <span>Overview</span>
         </button>
-        {project.technologies.length > 0 && (
+        {project.technologies && project.technologies.length > 0 && (
           <button onClick={() => scrollToSection('technologies')} className="nav-btn">
             <span>⚙️</span>
             <span>Tech</span>
           </button>
         )}
-        {project.challenges.length > 0 && (
+        {project.challenges && project.challenges.length > 0 && (
           <button onClick={() => scrollToSection('challenges-solutions')} className="nav-btn">
             <span>🎯</span>
             <span>Challenges</span>
           </button>
         )}
-        {project.results.length > 0 && (
+        {project.results && project.results.length > 0 && (
           <button onClick={() => scrollToSection('results')} className="nav-btn">
             <span>📈</span>
             <span>Results</span>
           </button>
         )}
-        {project.screenshots.length > 0 && (
+        {project.screenshots && project.screenshots.length > 0 && (
           <button onClick={() => scrollToSection('screenshots')} className="nav-btn">
             <span>🖼️</span>
             <span>Screenshots</span>

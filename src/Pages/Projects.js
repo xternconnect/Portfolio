@@ -19,10 +19,10 @@ const Projects = () => {
     },
     {
       id: "casakt",
-      title: "Casa.kt Desktop Application",
-      description: "Desktop application for furniture manufacturing company to streamline operations. Manages client information, product details, and generates detailed PDF reports using Electron, React, Node.js, and MongoDB.",
-      image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=500&h=300&fit=crop",
-      tags: ["Electron", "React", "Node.js", "MongoDB", "Desktop App"],
+      title: "Casa.kt Order Management System",
+      description: "A comprehensive desktop application designed for furniture and kitchen manufacturing businesses, featuring bilingual support (English/Arabic) and component-based product configuration with professional PDF report generation.",
+      image: "/assets/casa kt/create order.png",
+      tags: ["Electron", "React", "Node.js", "MongoDB", "Bilingual Support", "PDF Generation", "Desktop App"],
       category: "Full-Stack Development",
       link: null,
       github: null

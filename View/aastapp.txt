@@ -1,0 +1,68 @@
+AAST APP – STUDENT SERVICES & ATTENDANCE TRACKER
+AAST is a mobile app designed to help Arab Academy for Science and Technology (AAST) students manage university services efficiently. This case study focuses on improving the navigation, usability, and attendance tracking within the app. 
+
+
+Problem Statement
+Students struggled with disorganized services and no way to track attendance. 
+
+
+Goal
+Simplify service navigation and integrate an attendance tracker. 
+
+Understanding the User 
+
+User Research Summary
+
+Surveys and interviews revealed confusion with the app’s structure. Many relied on memory or paper for attendance. 
+
+Pain points
+
+Hard-to-find services
+
+
+No attendance system
+
+
+Unclear layout
+
+
+Overwhelming design
+
+User Persona Example
+
+
+
+Before/After 
+
+Before
+All services were shown in a long, unorganized vertical list 
+
+No categories or grouping – made it hard to find specific features 
+
+High cognitive load due to lack of structure 
+
+
+
+After 
+Services are grouped into clear categories (Academic, Financial, etc.) 
+
+Cleaner layout improves scannability and user focus
+
+New/important features (e.g., Attendance Tracker) are visually highlighted 
+
+Easier and faster navigation with reduced mental effort 
+
+Final UI
+
+
+
+
+Takeaways & Next Steps
+
+
+Impact 
+The updated app design significantly improved usability—students reported finding it clearer, faster to navigate, and more intuitive. Key services like attendance tracking and GPA calculation became more visible and accessible, reducing confusion and saving tim
+
+
+What I Learned
+This project reinforced how essential user feedback is. Iterating based on real user needs led to better design decisions and a more effective interface. I learned that even small tweaks, informed by testing, can make a big difference in the overall user experience.
