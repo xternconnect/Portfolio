@@ -92,28 +92,19 @@ const ProjectDetail = () => {
         "Implementing Arabic text rendering with RTL support in PDFs",
         "Designing flexible component-based product specification system",
         "Creating seamless Electron app with automatic server startup",
-        "Implementing secure image upload and storage system",
-        "Developing complete translation system with language switching",
-        "Building client-side PDF generation with Arabic support",
-        "Managing complex data structures for component-based products"
+        "Developing complete bilingual translation system"
       ],
       solutions: [
         "Implemented proper RTL support and Arabic font rendering in PDFs",
         "Designed flexible product specification system with 6 component types",
         "Created seamless Electron app with automatic server startup",
-        "Implemented secure file upload with validation and storage",
-        "Developed complete translation system with language switching",
-        "Built client-side PDF generation with Arabic support using jsPDF",
-        "Used MongoDB with Mongoose for efficient data management"
+        "Developed complete translation system with language switching"
       ],
       results: [
         "Streamlined order processing for furniture manufacturing businesses",
         "Reduced manual work through automated PDF generation",
-        "Improved accuracy with component-based product specifications",
         "Enhanced customer service with professional bilingual reports",
-        "Provided offline capability for businesses with limited internet access",
-        "Created scalable database architecture for future enhancements",
-        "Implemented secure authentication and file management system"
+        "Created scalable database architecture for future enhancements"
       ],
       screenshots: [
         { url: "/assets/casa kt/homepage.png", alt: "Casa.kt Homepage", caption: "Main dashboard showing the application overview and navigation" },
@@ -127,38 +118,68 @@ const ProjectDetail = () => {
     },
     "demoblaze": {
       id: "demoblaze",
-      title: "DemoBlaze E-Commerce Redesign",
+      title: "Sprints Summer Camp",
       category: "UI/UX Design",
-      description: "Complete UI/UX redesign of DemoBlaze tech e-commerce website. Enhanced usability, visual appeal, and user experience through usability testing, wireframing, and interactive prototyping.",
-      longDescription: "A comprehensive UI/UX redesign project for DemoBlaze, a technology e-commerce platform. The project focused on improving user experience, visual hierarchy, and overall usability through extensive user research, wireframing, and interactive prototyping.",
-      image: "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=500&h=300&fit=crop",
-      tags: ["Figma", "UI/UX Design", "E-Commerce", "Prototyping"],
+      description: "Redesigned DemoBlaze tech e-commerce website as part of Sprints x Microsoft Summer UI/UX Camp. Improved user experience by identifying key usability issues and creating a modern, user-centered redesign with interactive flows.",
+      longDescription: "As part of the Sprints x Microsoft Summer UI/UX Camp, I worked on redesigning the DemoBlaze tech e-commerce website. The goal was to improve the overall user experience by identifying key usability issues using Jakob Nielsen's heuristics, conducting usability testing with 5 users, and proposing a modern, user-centered redesign with interactive flows and a complete UI system.",
+      image: "/assets/Sprints sumer/project img.png",
+       tags: ["Figma", "UI/UX Design", "E-Commerce", "Prototyping", "Sprints Camp"],
+       link: null,
+       linkText: null,
+       github: null,
       technologies: [
-        { name: "Figma", purpose: "UI/UX design and prototyping" },
-        { name: "User Research", purpose: "Understanding user needs and pain points" },
-        { name: "Wireframing", purpose: "Creating initial layout structures" },
-        { name: "Prototyping", purpose: "Interactive design validation" }
+        { name: "Figma", purpose: "UI/UX design and interactive prototyping" },
+        { name: "Jakob Nielsen's Heuristics", purpose: "Identifying UI/UX problems and usability issues" },
+        { name: "Usability Testing", purpose: "Testing with 5 users to validate design decisions" },
+        { name: "Wireframing", purpose: "Creating initial layout structures and user flows" },
+        { name: "Interactive Prototyping", purpose: "Building clickable prototypes with hover states and micro-interactions" }
       ],
       challenges: [
-        "Improving cluttered interface design",
-        "Enhancing product discovery experience",
-        "Optimizing checkout flow",
+        "Lack of filtering and search functionality",
+        "Outdated UI design and poor visual hierarchy",
+        "Poor product information visibility",
         "Creating mobile-responsive design"
       ],
       solutions: [
-        "Conducted user interviews and usability testing",
-        "Redesigned information architecture",
-        "Implemented cleaner visual hierarchy",
-        "Created interactive prototypes for validation"
+        "Conducted usability testing with 5 users to identify pain points",
+        "Applied Jakob Nielsen's heuristics to evaluate existing interface",
+        "Created wireframes and modern UI design in Figma",
+        "Built interactive prototype with hover states and micro-interactions"
       ],
-      results: [
-        "Improved user experience and satisfaction",
-        "Enhanced visual appeal and brand consistency",
-        "Streamlined navigation and product discovery",
-        "Increased conversion rates through better UX"
-      ],
-      screenshots: [],
-      presentationDay: []
+       results: [
+         "Improved navigation and mobile usability",
+         "Enhanced visual consistency and modern design",
+         "Created smoother shopping experience",
+         "Delivered clickable prototype and walkthrough video"
+       ],
+       uxEvaluation: [
+         { url: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&h=600&fit=crop", alt: "UX Evaluation Report", caption: "Comprehensive UX evaluation report using Jakob Nielsen's heuristics" }
+       ],
+       wireframes: [
+         { url: "/assets/Sprints sumer/wireframes/homepage.png", alt: "Homepage Wireframe", caption: "Homepage wireframe showing improved layout structure and navigation" },
+         { url: "/assets/Sprints sumer/wireframes/product listing.png", alt: "Product Listing Wireframe", caption: "Product listing page wireframe with enhanced filtering and search functionality" },
+         { url: "/assets/Sprints sumer/wireframes/product details page.png", alt: "Product Details Wireframe", caption: "Product details page wireframe with better information hierarchy and call-to-actions" },
+         { url: "/assets/Sprints sumer/wireframes/login.png", alt: "Login Wireframe", caption: "Login page wireframe with simplified authentication flow" },
+         { url: "/assets/Sprints sumer/wireframes/sign up.png", alt: "Sign Up Wireframe", caption: "Sign up page wireframe with streamlined registration process" }
+       ],
+       beforeAfter: [
+         { url: "/assets/Sprints sumer/before & after/before.png", alt: "Before - Original DemoBlaze", caption: "Original DemoBlaze interface showing outdated design and poor usability" },
+         { url: "/assets/Sprints sumer/before & after/before bottm.png", alt: "Before - Original Bottom Section", caption: "Original bottom section with cluttered layout and poor information hierarchy" },
+         { url: "/assets/Sprints sumer/before & after/after.png", alt: "After - Redesigned DemoBlaze", caption: "Redesigned interface with modern design, improved navigation, and better user experience" }
+       ],
+       finalUI: [
+         { url: "/assets/Sprints sumer/final ui/homepage.png", alt: "Final Homepage", caption: "Redesigned homepage with modern layout, improved navigation, and better visual hierarchy" },
+         { url: "/assets/Sprints sumer/final ui/product page.png", alt: "Final Product Page", caption: "Enhanced product page with better information display and improved call-to-actions" },
+         { url: "/assets/Sprints sumer/final ui/cart.png", alt: "Final Shopping Cart", caption: "Streamlined shopping cart interface with clear product information and checkout flow" },
+         { url: "/assets/Sprints sumer/final ui/checkout.png", alt: "Final Checkout", caption: "Simplified checkout process with improved form design and user guidance" },
+         { url: "/assets/Sprints sumer/final ui/login.png", alt: "Final Login", caption: "Clean login interface with better form design and user experience" },
+         { url: "/assets/Sprints sumer/final ui/signup.png", alt: "Final Sign Up", caption: "Streamlined signup process with clear form structure and validation" }
+       ],
+       prototype: [
+         { url: "/assets/Sprints sumer/final ui/prototype.gif", alt: "Prototype & Walkthrough", caption: "Interactive prototype demonstration showing user flows and micro-interactions" }
+       ],
+       screenshots: [],
+       presentationDay: []
     },
     "amazon-eg": {
       id: "amazon-eg",
@@ -392,7 +413,7 @@ const ProjectDetail = () => {
           )}
 
           {/* Results */}
-          {project.results && project.results.length > 0 && (
+           {project.results && project.results.length > 0 && (
             <section id="results" className="project-section">
               <h2>Results</h2>
               <ul className="results-list">
@@ -400,6 +421,127 @@ const ProjectDetail = () => {
                   <li key={index}>{result}</li>
                 ))}
               </ul>
+            </section>
+          )}
+
+           {/* UX Evaluation */}
+           {project.uxEvaluation && project.uxEvaluation.length > 0 && (
+             <section id="ux-evaluation" className="project-section">
+               <h2>UX Evaluation</h2>
+               <p style={{ marginBottom: '20px', fontSize: '16px', lineHeight: '1.6' }}>
+                 This is the first step in the design process. I used Jakob Nielsen's Heuristics to systematically identify UI/UX problems and usability issues on the DemoBlaze website. This comprehensive evaluation helped uncover key pain points that were affecting user experience, including lack of filtering functionality, outdated design elements, and poor information hierarchy.
+               </p>
+               <p style={{ marginBottom: '30px', fontSize: '16px', lineHeight: '1.6' }}>
+                 The evaluation process involved analyzing the website against Nielsen's 10 usability principles and conducting usability testing with 5 users to validate findings and gather additional insights.
+               </p>
+               <div className="project-links" style={{ marginBottom: '20px', textAlign: 'center' }}>
+                 <a href="https://docs.google.com/document/d/1vosenaslkN4MAIMgiop_rUfNBqGMZJJ-rq29gyNm_eY/edit?usp=sharing" target="_blank" rel="noopener noreferrer" className="btn btn-primary">
+                   View UX Evaluation Report
+                 </a>
+               </div>
+             </section>
+           )}
+
+           {/* Wireframes */}
+           {project.wireframes && project.wireframes.length > 0 && (
+             <section id="wireframes" className="project-section">
+               <h2>Wireframes</h2>
+               <div className="screenshots-grid">
+                 {project.wireframes.map((wireframe, index) => (
+                   <div key={index} className="screenshot-item">
+                     <img 
+                       src={wireframe.url} 
+                       alt={wireframe.alt}
+                       onClick={() => setSelectedImage(wireframe)}
+                     />
+                     <p className="screenshot-caption">{wireframe.caption}</p>
+                   </div>
+                 ))}
+               </div>
+             </section>
+           )}
+
+           {/* Before/After */}
+           {project.beforeAfter && project.beforeAfter.length > 0 && (
+             <section id="before-after" className="project-section">
+               <h2>Before/After</h2>
+               <div className="screenshots-grid">
+                 {project.beforeAfter.map((comparison, index) => (
+                   <div key={index} className="screenshot-item">
+                     <img 
+                       src={comparison.url} 
+                       alt={comparison.alt}
+                       onClick={() => setSelectedImage(comparison)}
+                     />
+                     <p className="screenshot-caption">{comparison.caption}</p>
+                   </div>
+                 ))}
+               </div>
+             </section>
+           )}
+
+           {/* Final UI */}
+           {project.finalUI && project.finalUI.length > 0 && (
+             <section id="final-ui" className="project-section">
+               <h2>Final UI</h2>
+               <div className="screenshots-grid">
+                 {project.finalUI.map((ui, index) => (
+                   <div key={index} className="screenshot-item">
+                     <img 
+                       src={ui.url} 
+                       alt={ui.alt}
+                       onClick={() => setSelectedImage(ui)}
+                     />
+                     <p className="screenshot-caption">{ui.caption}</p>
+                   </div>
+                 ))}
+               </div>
+             </section>
+           )}
+
+           {/* Prototype & Walkthrough */}
+           {project.prototype && project.prototype.length > 0 && (
+             <section id="prototype" className="project-section">
+               <h2>Prototype & Walkthrough</h2>
+               <div style={{ 
+                 display: 'flex', 
+                 alignItems: 'center', 
+                 gap: '40px', 
+                 marginTop: '20px',
+                 flexWrap: 'wrap'
+               }}>
+                 <div style={{ flex: '1', minWidth: '300px' }}>
+                   {project.prototype.map((prototype, index) => (
+                     <div key={index} style={{ textAlign: 'center' }}>
+                       <img 
+                         src={prototype.url} 
+                         alt={prototype.alt}
+                         onClick={() => setSelectedImage(prototype)}
+                         style={{ 
+                           maxWidth: '100%', 
+                           height: 'auto', 
+                           borderRadius: '10px',
+                           cursor: 'pointer',
+                           boxShadow: '0 4px 15px rgba(0,0,0,0.1)'
+                         }}
+                       />
+                       <p style={{ marginTop: '10px', fontSize: '14px', color: '#666' }}>
+                         {prototype.caption}
+                       </p>
+                     </div>
+                   ))}
+                 </div>
+                 <div style={{ flex: '1', minWidth: '300px' }}>
+                   <p style={{ marginBottom: '20px', fontSize: '16px', lineHeight: '1.6' }}>
+                     Experience the interactive prototype that brings the redesigned DemoBlaze to life. This clickable prototype demonstrates the improved user flows, enhanced navigation, and modern interface design that resulted from our UX evaluation and redesign process.
+                   </p>
+                   <div className="project-links">
+                     <a href="https://www.figma.com/proto/wy0AgvGAbyRqwCATL0vUtF/Demoblaze?page-id=6%3A652&node-id=6-870&p=f&viewport=-86%2C135%2C0.11&t=ld65DWeVebogiI7G-1&scaling=scale-down-width&content-scaling=fixed&starting-point-node-id=6%3A870" target="_blank" rel="noopener noreferrer" className="btn btn-primary">
+                       🎬 Try Interactive Prototype
+                     </a>
+                   </div>
+                 </div>
+               </div>
             </section>
           )}
 
@@ -486,7 +628,37 @@ const ProjectDetail = () => {
             <span>Results</span>
           </button>
         )}
-        {project.screenshots && project.screenshots.length > 0 && (
+         {project.uxEvaluation && project.uxEvaluation.length > 0 && (
+           <button onClick={() => scrollToSection('ux-evaluation')} className="nav-btn">
+             <span>🔍</span>
+             <span>UX Evaluation</span>
+           </button>
+         )}
+         {project.wireframes && project.wireframes.length > 0 && (
+           <button onClick={() => scrollToSection('wireframes')} className="nav-btn">
+             <span>📐</span>
+             <span>Wireframes</span>
+           </button>
+         )}
+         {project.beforeAfter && project.beforeAfter.length > 0 && (
+           <button onClick={() => scrollToSection('before-after')} className="nav-btn">
+             <span>🔄</span>
+             <span>Before/After</span>
+           </button>
+         )}
+         {project.finalUI && project.finalUI.length > 0 && (
+           <button onClick={() => scrollToSection('final-ui')} className="nav-btn">
+             <span>🎨</span>
+             <span>Final UI</span>
+           </button>
+         )}
+         {project.prototype && project.prototype.length > 0 && (
+           <button onClick={() => scrollToSection('prototype')} className="nav-btn">
+             <span>🎬</span>
+             <span>Prototype</span>
+           </button>
+         )}
+         {project.screenshots && project.screenshots.length > 0 && (
           <button onClick={() => scrollToSection('screenshots')} className="nav-btn">
             <span>🖼️</span>
             <span>Screenshots</span>

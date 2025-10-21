@@ -30,10 +30,10 @@ const Projects = () => {
     // UI/UX Design Projects
     {
       id: "demoblaze",
-      title: "DemoBlaze E-Commerce Redesign",
-      description: "Complete UI/UX redesign of DemoBlaze tech e-commerce website. Enhanced usability, visual appeal, and user experience through usability testing, wireframing, and interactive prototyping.",
-      image: "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=500&h=300&fit=crop",
-      tags: ["Figma", "UI/UX Design", "E-Commerce", "Prototyping"],
+      title: "Sprints Summer Camp",
+      description: "Redesigned DemoBlaze tech e-commerce website as part of Sprints x Microsoft Summer UI/UX Camp. Improved user experience by identifying key usability issues and creating a modern, user-centered redesign with interactive flows.",
+      image: "/assets/Sprints sumer/final ui/homepage.png",
+      tags: ["Figma", "UI/UX Design", "E-Commerce", "Prototyping", "Sprints Camp"],
       category: "UI/UX Design",
       link: null,
       github: null
