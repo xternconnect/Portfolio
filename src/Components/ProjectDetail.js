@@ -5,6 +5,7 @@ const ProjectDetail = () => {
   const { projectId } = useParams();
   const [selectedImage, setSelectedImage] = useState(null);
   const [showScrollTop, setShowScrollTop] = useState(false);
+  const [activeSection, setActiveSection] = useState('overview');
 
   // Project data directly in component
   const projects = {
@@ -308,12 +309,41 @@ const ProjectDetail = () => {
      }
   };
 
-  // Scroll to top functionality
+  // Scroll to top functionality and active section tracking
   useEffect(() => {
     const handleScroll = () => {
       setShowScrollTop(window.scrollY > 300);
+      
+      // Track active section
+      const sections = [
+        'overview',
+        'technologies',
+        'challenges-solutions',
+        'results',
+        'user-persona',
+        'wireframes',
+        'before-after',
+        'attendance-tracker',
+        'final-ui',
+        'screenshots',
+        'presentation-day'
+      ];
+      
+      const scrollPosition = window.scrollY + 100; // Offset for better detection
+      
+      for (let i = sections.length - 1; i >= 0; i--) {
+        const section = document.getElementById(sections[i]);
+        if (section && section.offsetTop <= scrollPosition) {
+          setActiveSection(sections[i]);
+          break;
+        }
+      }
     };
+    
     window.addEventListener('scroll', handleScroll);
+    // Initial call to set active section
+    handleScroll();
+    
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
@@ -687,73 +717,117 @@ const ProjectDetail = () => {
         </div>
       </div>
 
-      {/* Section Navigation */}
-      <div className="section-navigation">
-        <button onClick={() => scrollToSection('overview')} className="nav-btn">
-          <span>📋</span>
-          <span>Overview</span>
-        </button>
-        {project.technologies && project.technologies.length > 0 && (
-          <button onClick={() => scrollToSection('technologies')} className="nav-btn">
-            <span>⚙️</span>
-            <span>Tech</span>
-          </button>
-        )}
-        {project.challenges && project.challenges.length > 0 && (
-          <button onClick={() => scrollToSection('challenges-solutions')} className="nav-btn">
-            <span>🎯</span>
-            <span>Challenges</span>
-          </button>
-        )}
+       {/* Section Navigation */}
+       <div className="section-navigation">
+         <button 
+           onClick={() => scrollToSection('overview')} 
+           className={`nav-btn ${activeSection === 'overview' ? 'active' : ''}`}
+         >
+           <span>📋</span>
+           <span className="nav-text">Overview</span>
+           {activeSection === 'overview' && <div className="active-indicator"></div>}
+         </button>
+         {project.technologies && project.technologies.length > 0 && (
+           <button 
+             onClick={() => scrollToSection('technologies')} 
+             className={`nav-btn ${activeSection === 'technologies' ? 'active' : ''}`}
+           >
+             <span>⚙️</span>
+             <span className="nav-text">Tech</span>
+             {activeSection === 'technologies' && <div className="active-indicator"></div>}
+           </button>
+         )}
+         {project.challenges && project.challenges.length > 0 && (
+           <button 
+             onClick={() => scrollToSection('challenges-solutions')} 
+             className={`nav-btn ${activeSection === 'challenges-solutions' ? 'active' : ''}`}
+           >
+             <span>🎯</span>
+             <span className="nav-text">Challenges</span>
+             {activeSection === 'challenges-solutions' && <div className="active-indicator"></div>}
+           </button>
+         )}
          {project.results && project.results.length > 0 && (
-           <button onClick={() => scrollToSection('results')} className="nav-btn">
+           <button 
+             onClick={() => scrollToSection('results')} 
+             className={`nav-btn ${activeSection === 'results' ? 'active' : ''}`}
+           >
              <span>📈</span>
-             <span>Results</span>
+             <span className="nav-text">Results</span>
+             {activeSection === 'results' && <div className="active-indicator"></div>}
            </button>
          )}
          {project.userPersona && project.userPersona.length > 0 && (
-           <button onClick={() => scrollToSection('user-persona')} className="nav-btn">
+           <button 
+             onClick={() => scrollToSection('user-persona')} 
+             className={`nav-btn ${activeSection === 'user-persona' ? 'active' : ''}`}
+           >
              <span>👤</span>
-             <span>User Persona</span>
+             <span className="nav-text">User Persona</span>
+             {activeSection === 'user-persona' && <div className="active-indicator"></div>}
            </button>
          )}
          {project.wireframes && project.wireframes.length > 0 && (
-           <button onClick={() => scrollToSection('wireframes')} className="nav-btn">
+           <button 
+             onClick={() => scrollToSection('wireframes')} 
+             className={`nav-btn ${activeSection === 'wireframes' ? 'active' : ''}`}
+           >
              <span>📐</span>
-             <span>Wireframes</span>
+             <span className="nav-text">Wireframes</span>
+             {activeSection === 'wireframes' && <div className="active-indicator"></div>}
            </button>
          )}
          {project.beforeAfter && project.beforeAfter.length > 0 && (
-           <button onClick={() => scrollToSection('before-after')} className="nav-btn">
+           <button 
+             onClick={() => scrollToSection('before-after')} 
+             className={`nav-btn ${activeSection === 'before-after' ? 'active' : ''}`}
+           >
              <span>🔄</span>
-             <span>Before/After</span>
+             <span className="nav-text">Before/After</span>
+             {activeSection === 'before-after' && <div className="active-indicator"></div>}
            </button>
          )}
          {project.attendanceTracker && project.attendanceTracker.length > 0 && (
-           <button onClick={() => scrollToSection('attendance-tracker')} className="nav-btn">
+           <button 
+             onClick={() => scrollToSection('attendance-tracker')} 
+             className={`nav-btn ${activeSection === 'attendance-tracker' ? 'active' : ''}`}
+           >
              <span>📊</span>
-             <span>Attendance Tracker</span>
+             <span className="nav-text">Attendance Tracker</span>
+             {activeSection === 'attendance-tracker' && <div className="active-indicator"></div>}
            </button>
          )}
          {project.finalUI && project.finalUI.length > 0 && (
-           <button onClick={() => scrollToSection('final-ui')} className="nav-btn">
+           <button 
+             onClick={() => scrollToSection('final-ui')} 
+             className={`nav-btn ${activeSection === 'final-ui' ? 'active' : ''}`}
+           >
              <span>🎨</span>
-             <span>Final UI</span>
+             <span className="nav-text">Final UI</span>
+             {activeSection === 'final-ui' && <div className="active-indicator"></div>}
            </button>
          )}
          {project.screenshots && project.screenshots.length > 0 && (
-           <button onClick={() => scrollToSection('screenshots')} className="nav-btn">
+           <button 
+             onClick={() => scrollToSection('screenshots')} 
+             className={`nav-btn ${activeSection === 'screenshots' ? 'active' : ''}`}
+           >
              <span>🖼️</span>
-             <span>Screenshots</span>
+             <span className="nav-text">Screenshots</span>
+             {activeSection === 'screenshots' && <div className="active-indicator"></div>}
            </button>
          )}
         {project.presentationDay && project.presentationDay.length > 0 && (
-          <button onClick={() => scrollToSection('presentation-day')} className="nav-btn">
+          <button 
+            onClick={() => scrollToSection('presentation-day')} 
+            className={`nav-btn ${activeSection === 'presentation-day' ? 'active' : ''}`}
+          >
             <span>🎉</span>
-            <span>Presentation</span>
+            <span className="nav-text">Presentation</span>
+            {activeSection === 'presentation-day' && <div className="active-indicator"></div>}
           </button>
         )}
-      </div>
+       </div>
 
       {/* Scroll to Top Button */}
       {showScrollTop && (

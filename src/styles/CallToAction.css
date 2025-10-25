@@ -113,17 +113,19 @@
 
   .cta-buttons {
     flex-direction: row !important;
-    align-items: center;
+    align-items: stretch;
     gap: 1rem;
     justify-content: center;
     flex-wrap: nowrap;
+    width: 100%;
   }
 
   .cta-btn {
     flex: 1;
-    max-width: 200px;
-    padding: 1rem 1.5rem;
+    min-width: 0;
+    padding: 1rem 1rem;
     text-align: center;
-    width: auto;
+    white-space: nowrap;
+    font-size: 0.9rem;
   }
 }
