@@ -126,49 +126,77 @@ const ProjectDetail = () => {
       ],
       presentationDay: []
     },
-     "demoblaze": {
-       id: "demoblaze",
+    "demoblaze": {
+      id: "demoblaze",
        title: "Sprints Summer Camp",
-       category: "UI/UX Design",
+      category: "UI/UX Design",
        description: "A comprehensive UI/UX redesign project completed during the Sprints x Microsoft Summer UI/UX Camp. Enhanced usability, visual appeal, and user experience through usability testing, wireframing, and interactive prototyping.",
-       longDescription: "A comprehensive UI/UX redesign project completed during the Sprints x Microsoft Summer UI/UX Camp. The project focused on improving user experience, visual hierarchy, and overall usability through extensive user research, wireframing, and interactive prototyping using Jakob Nielsen's heuristics and usability testing methodologies.",
-       image: "/assets/Sprints sumer/final ui/homepage.png",
-       tags: ["Figma", "UI/UX Design", "E-Commerce", "Prototyping", "Sprints Camp"],
-       technologies: [
-         { name: "Figma", purpose: "UI/UX design and prototyping" },
-         { name: "Jakob Nielsen's Heuristics", purpose: "Usability evaluation framework" },
-         { name: "Usability Testing", purpose: "User research and validation" },
-         { name: "Wireframing", purpose: "Creating initial layout structures" },
-         { name: "Interactive Prototyping", purpose: "Design validation and user testing" }
-       ],
-       challenges: [
-         "Lack of filtering and search functionality",
-         "Outdated UI design with poor visual hierarchy",
-         "Poor product information visibility",
-         "Inconsistent design elements and navigation"
-       ],
-       solutions: [
-         "Conducted usability testing with Jakob Nielsen's heuristics",
-         "Created comprehensive wireframes for all key pages",
-         "Developed interactive prototypes for user validation",
-         "Implemented improved visual hierarchy and navigation"
-       ],
-       results: [
-         "Improved navigation and mobile usability",
-         "Enhanced visual consistency and brand appeal",
-         "Smoother shopping experience with better product discovery",
-         "Increased user satisfaction through better UX design"
-       ],
-       screenshots: [],
-       presentationDay: []
-     },
+       longDescription: "As part of the Sprints x Microsoft Summer UI/UX Camp, I worked on redesigning the DemoBlaze tech e-commerce website. The goal was to improve the overall user experience by identifying key usability issues and proposing a modern, user-centered redesign with interactive flows and a complete UI system.",
+      image: "/assets/Sprints sumer/project img.png",
+      tags: ["Figma", "UI/UX Design", "E-Commerce", "Prototyping", "Sprints Camp"],
+      technologies: [
+        { name: "Figma", purpose: "UI/UX design and prototyping" },
+        { name: "Jakob Nielsen's Heuristics", purpose: "Usability evaluation framework" },
+        { name: "Usability Testing", purpose: "User research and validation" },
+        { name: "Wireframing", purpose: "Creating initial layout structures" },
+        { name: "Interactive Prototyping", purpose: "Design validation and user testing" }
+      ],
+      challenges: [
+        "Lack of filtering and search functionality",
+        "Outdated UI design with poor visual hierarchy",
+        "Poor product information visibility",
+        "Inconsistent design elements and navigation"
+      ],
+      solutions: [
+        "Conducted usability testing with Jakob Nielsen's heuristics",
+        "Created comprehensive wireframes for all key pages",
+        "Developed interactive prototypes for user validation",
+        "Implemented improved visual hierarchy and navigation"
+      ],
+      results: [
+        "Improved navigation and mobile usability",
+        "Enhanced visual consistency and brand appeal",
+        "Smoother shopping experience with better product discovery",
+        "Increased user satisfaction through better UX design"
+      ],
+      uxEvaluation: {
+        text: "This is the first step in the UX design process. I used Jakob Nielsen's Heuristics to identify UI/UX problems and usability issues for the DemoBlaze e-commerce website. This comprehensive evaluation helped identify key areas for improvement.",
+        link: "https://docs.google.com/document/d/1vosenaslkN4MAIMgiop_rUfNBqGMZJJ-rq29gyNm_eY/edit?usp=sharing",
+        linkText: "View UX Evaluation Report"
+      },
+      wireframes: [
+        { url: "/assets/Sprints sumer/wireframes/homepage.png", alt: "Wireframe 1: Homepage Layout", caption: "Initial wireframe showing the homepage structure with improved navigation and product organization" },
+        { url: "/assets/Sprints sumer/wireframes/product listing.png", alt: "Wireframe 2: Product Listing", caption: "Wireframe of the product listing page with enhanced product information visibility and filtering options" },
+        { url: "/assets/Sprints sumer/wireframes/product details page.png", alt: "Wireframe 3: Product Details", caption: "Wireframe of the product details page with improved product information and user flow" },
+        { url: "/assets/Sprints sumer/wireframes/login.png", alt: "Wireframe 4: User Authentication", caption: "Wireframe of the login/signup process with streamlined user authentication" }
+      ],
+      beforeAfter: [
+        { url: "/assets/Sprints sumer/before & after/before.png", alt: "Before - Original DemoBlaze", caption: "Original DemoBlaze website with cluttered interface, poor navigation, and outdated design elements" },
+        { url: "/assets/Sprints sumer/before & after/after.png", alt: "After - Redesigned DemoBlaze", caption: "Redesigned DemoBlaze with modern UI, improved navigation, and better user experience" }
+      ],
+      screenshots: [],
+      finalUI: [
+        { url: "/assets/Sprints sumer/final ui/homepage.png", alt: "Final UI: Homepage", caption: "Final homepage design with clean layout, prominent search, and improved product showcase" },
+        { url: "/assets/Sprints sumer/final ui/product page.png", alt: "Final UI: Product Page", caption: "Final product page with enhanced product information, filtering options, and clear call-to-actions" },
+        { url: "/assets/Sprints sumer/final ui/cart.png", alt: "Final UI: Shopping Cart", caption: "Final shopping cart design with streamlined checkout process and clear pricing information" },
+        { url: "/assets/Sprints sumer/final ui/checkout.png", alt: "Final UI: Checkout", caption: "Final checkout page with streamlined payment process and clear order summary" },
+        { url: "/assets/Sprints sumer/final ui/login.png", alt: "Final UI: Login", caption: "Final login page with clean authentication interface" },
+        { url: "/assets/Sprints sumer/final ui/signup.png", alt: "Final UI: Signup", caption: "Final signup page with user-friendly registration process" }
+      ],
+      prototype: [
+        { url: "/assets/Sprints sumer/final ui/prototype.gif", alt: "Interactive Prototype Demo", caption: "Interactive prototype walkthrough showing key user flows and micro-interactions" },
+        { url: "https://www.figma.com/proto/wy0AgvGAbyRqwCATL0vUtF/Demoblaze?page-id=6%3A652&node-id=6-870&p=f&viewport=-86%2C135%2C0.11&t=ld65DWeVebogiI7G-1&scaling=scale-down-width&content-scaling=fixed&starting-point-node-id=6%3A870", alt: "Figma Prototype Link", caption: "Click to view the interactive Figma prototype with all user flows and interactions" }
+      ],
+      screenshots: [],
+      presentationDay: []
+    },
     "amazon-eg": {
       id: "amazon-eg",
       title: "Amazon.eg Homepage Redesign",
       category: "UI/UX Design",
       description: "Mobile app homepage redesign focused on improving usability, accessibility, and shopping experience. Addressed cluttered interface with better hierarchy, cleaner visuals, and clearer call-to-actions.",
-      longDescription: "A mobile app homepage redesign project for Amazon.eg, focusing on improving usability, accessibility, and overall shopping experience. The project addressed interface clutter through better visual hierarchy, cleaner design elements, and more intuitive call-to-action placement.",
-      image: "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=500&h=300&fit=crop",
+      longDescription: "Amazon Egypt is one of the leading e-commerce platforms, but its mobile app had usability issues that impacted the shopping experience. The app's cluttered interface, poor visual hierarchy, and inconsistent design elements made navigation difficult. This case study presents a redesign of the Amazon Egypt app's homepage to improve usability, accessibility, and overall user experience.",
+      image: "/assets/Amazon/final UI.png",
       tags: ["Figma", "Mobile Design", "User Research", "Usability Testing"],
       technologies: [
         { name: "Figma", purpose: "Mobile UI design and prototyping" },
@@ -177,15 +205,15 @@ const ProjectDetail = () => {
         { name: "Accessibility", purpose: "Ensuring inclusive design practices" }
       ],
       challenges: [
-        "Reducing interface clutter and information overload",
-        "Improving mobile navigation experience",
-        "Enhancing accessibility for diverse users",
-        "Optimizing call-to-action visibility"
+        "Cluttered homepage with overwhelming amount of promotions and banners",
+        "Small category icons crowded in horizontal scroll",
+        "Busy backgrounds with bright colors and overlapping elements",
+        "Poor readability with inconsistent text sizes and spacing"
       ],
       solutions: [
         "Conducted comprehensive user research and testing",
-        "Implemented cleaner visual hierarchy",
-        "Redesigned navigation patterns for mobile",
+        "Implemented cleaner visual hierarchy with breathing space",
+        "Redesigned navigation with prominent, tappable category icons",
         "Enhanced accessibility features and guidelines"
       ],
       results: [
@@ -194,13 +222,18 @@ const ProjectDetail = () => {
         "Reduced cognitive load for users",
         "Increased conversion rates through better CTAs"
       ],
+      beforeAfter: [
+        { url: "/assets/Amazon/Before.png", alt: "Before - Cluttered Amazon Homepage", caption: "Cluttered Layout: Overwhelming amount of promotions and banners with no clear visual hierarchy. Small Icons: Category icons are small and crowded in horizontal scroll. Busy Backgrounds: Bright colors and overlapping elements make the interface visually noisy." },
+        { url: "/assets/Amazon/after.png", alt: "After - Redesigned Amazon Homepage", caption: "Cleaner Layout: Improved structure with clearly separated sections and breathing space. Prominent Categories: Main categories shown as large, tappable icons. Better Visual Hierarchy: Fonts, colors, and layout create a smoother flow and easier navigation." }
+      ],
+      finalUI: [],
       screenshots: [],
       presentationDay: []
     },
-     "aast-app": {
-       id: "aast-app",
+    "aast-app": {
+      id: "aast-app",
        title: "AAST App – Student Services & Attendance Tracker",
-       category: "UI/UX Design",
+      category: "UI/UX Design",
        description: "AAST is a mobile app designed to help Arab Academy for Science and Technology (AAST) students manage university services efficiently. This case study focuses on improving the navigation, usability, and attendance tracking within the app.",
        longDescription: "AAST is a mobile app designed to help Arab Academy for Science and Technology (AAST) students manage university services efficiently. This case study focuses on improving the navigation, usability, and attendance tracking within the app. Students struggled with disorganized services and no way to track attendance. The goal was to simplify service navigation and integrate an attendance tracker.",
        image: "/assets/Aast/before and after/after.png",
@@ -239,11 +272,11 @@ const ProjectDetail = () => {
        ],
        screenshots: [],
        presentationDay: []
-     },
-     "evently": {
-       id: "evently",
+    },
+    "evently": {
+      id: "evently",
        title: "Evently – Event Planning & Management App",
-       category: "UI/UX Design",
+      category: "UI/UX Design",
        description: "Evently is a mobile application designed to simplify the process of planning and managing events. This case study focuses on enhancing user engagement, streamlining event creation, and providing intuitive navigation for users.",
        longDescription: "Evently is a mobile application designed to simplify the process of planning and managing events. This case study focuses on enhancing user engagement, streamlining event creation, and providing intuitive navigation for users. Through surveys and interviews, we discovered that users desired a straightforward event creation process and easy access to event details and updates.",
        image: "/assets/Evently/Final ui/feed.png",
@@ -462,17 +495,17 @@ const ProjectDetail = () => {
             </section>
           )}
 
-           {/* Results */}
+          {/* Results */}
            {project.results && project.results.length > 0 && (
-             <section id="results" className="project-section">
-               <h2>Results</h2>
-               <ul className="results-list">
-                 {project.results.map((result, index) => (
-                   <li key={index}>{result}</li>
-                 ))}
-               </ul>
-             </section>
-           )}
+            <section id="results" className="project-section">
+              <h2>Results</h2>
+              <ul className="results-list">
+                {project.results.map((result, index) => (
+                  <li key={index}>{result}</li>
+                ))}
+              </ul>
+            </section>
+          )}
 
            {/* User Persona */}
            {project.userPersona && project.userPersona.length > 0 && (
@@ -535,6 +568,47 @@ const ProjectDetail = () => {
                      </div>
                    </div>
                  ))}
+               </div>
+             </section>
+           )}
+
+           {/* UX Evaluation */}
+           {project.uxEvaluation && (
+             <section id="ux-evaluation" className="project-section">
+               <h2>UX Evaluation</h2>
+               <p style={{ color: 'rgba(255, 255, 255, 0.8)', marginBottom: '2rem', lineHeight: '1.6' }}>
+                 {project.uxEvaluation.text}
+               </p>
+               <div style={{ textAlign: 'center' }}>
+                 <a 
+                   href={project.uxEvaluation.link} 
+                   target="_blank" 
+                   rel="noopener noreferrer"
+                   style={{
+                     display: 'inline-flex',
+                     alignItems: 'center',
+                     gap: '0.5rem',
+                     padding: '1rem 2rem',
+                     background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+                     color: '#ffffff',
+                     textDecoration: 'none',
+                     borderRadius: '12px',
+                     fontWeight: '600',
+                     transition: 'all 0.3s ease',
+                     boxShadow: '0 4px 20px rgba(102, 126, 234, 0.3)'
+                   }}
+                   onMouseEnter={(e) => {
+                     e.target.style.transform = 'translateY(-2px)';
+                     e.target.style.boxShadow = '0 8px 30px rgba(102, 126, 234, 0.4)';
+                   }}
+                   onMouseLeave={(e) => {
+                     e.target.style.transform = 'translateY(0)';
+                     e.target.style.boxShadow = '0 4px 20px rgba(102, 126, 234, 0.3)';
+                   }}
+                 >
+                   <span>📊</span>
+                   {project.uxEvaluation.linkText}
+                 </a>
                </div>
              </section>
            )}
@@ -658,7 +732,7 @@ const ProjectDetail = () => {
              </section>
            )}
 
-           {/* Screenshots */}
+          {/* Screenshots */}
           {project.screenshots && project.screenshots.length > 0 && (
             <section id="screenshots" className="project-section">
               <h2>Project Screenshots</h2>
@@ -717,42 +791,42 @@ const ProjectDetail = () => {
         </div>
       </div>
 
-       {/* Section Navigation */}
-       <div className="section-navigation">
+      {/* Section Navigation */}
+      <div className="section-navigation">
          <button 
            onClick={() => scrollToSection('overview')} 
            className={`nav-btn ${activeSection === 'overview' ? 'active' : ''}`}
          >
-           <span>📋</span>
+          <span>📋</span>
            <span className="nav-text">Overview</span>
            {activeSection === 'overview' && <div className="active-indicator"></div>}
-         </button>
+        </button>
          {project.technologies && project.technologies.length > 0 && (
            <button 
              onClick={() => scrollToSection('technologies')} 
              className={`nav-btn ${activeSection === 'technologies' ? 'active' : ''}`}
            >
-             <span>⚙️</span>
+            <span>⚙️</span>
              <span className="nav-text">Tech</span>
              {activeSection === 'technologies' && <div className="active-indicator"></div>}
-           </button>
-         )}
+          </button>
+        )}
          {project.challenges && project.challenges.length > 0 && (
            <button 
              onClick={() => scrollToSection('challenges-solutions')} 
              className={`nav-btn ${activeSection === 'challenges-solutions' ? 'active' : ''}`}
            >
-             <span>🎯</span>
+            <span>🎯</span>
              <span className="nav-text">Challenges</span>
              {activeSection === 'challenges-solutions' && <div className="active-indicator"></div>}
-           </button>
-         )}
+          </button>
+        )}
          {project.results && project.results.length > 0 && (
            <button 
              onClick={() => scrollToSection('results')} 
              className={`nav-btn ${activeSection === 'results' ? 'active' : ''}`}
            >
-             <span>📈</span>
+            <span>📈</span>
              <span className="nav-text">Results</span>
              {activeSection === 'results' && <div className="active-indicator"></div>}
            </button>
@@ -805,18 +879,18 @@ const ProjectDetail = () => {
              <span>🎨</span>
              <span className="nav-text">Final UI</span>
              {activeSection === 'final-ui' && <div className="active-indicator"></div>}
-           </button>
-         )}
+          </button>
+        )}
          {project.screenshots && project.screenshots.length > 0 && (
            <button 
              onClick={() => scrollToSection('screenshots')} 
              className={`nav-btn ${activeSection === 'screenshots' ? 'active' : ''}`}
            >
-             <span>🖼️</span>
+            <span>🖼️</span>
              <span className="nav-text">Screenshots</span>
              {activeSection === 'screenshots' && <div className="active-indicator"></div>}
-           </button>
-         )}
+          </button>
+        )}
         {project.presentationDay && project.presentationDay.length > 0 && (
           <button 
             onClick={() => scrollToSection('presentation-day')} 
@@ -827,7 +901,7 @@ const ProjectDetail = () => {
             {activeSection === 'presentation-day' && <div className="active-indicator"></div>}
           </button>
         )}
-       </div>
+      </div>
 
       {/* Scroll to Top Button */}
       {showScrollTop && (
