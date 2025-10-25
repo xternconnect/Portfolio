@@ -1,0 +1,13 @@
+Needs
+A quick glance to check what events are happening today or this week Simple access to external ticket links without creating an account or logging in A wav to add events to Goosle Calendar or Apple Calendar with one tar ‣ Clean, uncluttered UI that focuses only on essential event infr Trust that the event info is accurate and up-to-date
+
+Pain Points
+
+Clunky event platforms overloaded with
+irrelevant features
+Too many steps just to find a ticket link
+or calendar integration
+Apps that force sign-ups or accounts to
+access basic event details
+Hard to find reliable, centralized listings
+for niche/local events

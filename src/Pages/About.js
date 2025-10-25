@@ -48,6 +48,16 @@ const About = () => {
       icon: "🚀",
       title: "Project Leadership",
       description: "Successfully led graduation project from concept to completion"
+    },
+    {
+      icon: "🎨",
+      title: "UI/UX Design",
+      description: "Specialized in creating user-centered digital experiences"
+    },
+    {
+      icon: "💻",
+      title: "Full-Stack Development",
+      description: "Proficient in both frontend and backend technologies"
     }
   ];
 
@@ -125,44 +135,76 @@ const About = () => {
             <h2 className="section-title">Certifications & Courses</h2>
             <div className="certifications-grid">
               <div className="certification-item">
+                <div className="cert-company-logo">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/7/77/Meta_Platforms_Inc._logo.svg" alt="Meta" className="company-logo" />
+                </div>
                 <h3>React Basics</h3>
                 <div className="cert-issuer">Meta - Coursera</div>
                 <a href="https://coursera.org/share/3c076774f505213b0df4ed7b0beb31a2" target="_blank" rel="noopener noreferrer" className="cert-link">View Certificate</a>
               </div>
               <div className="certification-item">
+                <div className="cert-company-logo">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/7/77/Meta_Platforms_Inc._logo.svg" alt="Meta" className="company-logo" />
+                </div>
                 <h3>Programming with JavaScript</h3>
                 <div className="cert-issuer">Meta - Coursera</div>
                 <a href="https://coursera.org/share/2ac25e04eb3516144d979537fe73fea4" target="_blank" rel="noopener noreferrer" className="cert-link">View Certificate</a>
               </div>
               <div className="certification-item">
+                <div className="cert-company-logo">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/7/77/Meta_Platforms_Inc._logo.svg" alt="Meta" className="company-logo" />
+                </div>
                 <h3>Principles of UX/UI Design</h3>
                 <div className="cert-issuer">Meta - Coursera</div>
                 <a href="https://coursera.org/share/c93c9a7b3f3850280472730199863804" target="_blank" rel="noopener noreferrer" className="cert-link">View Certificate</a>
               </div>
               <div className="certification-item">
+                <div className="cert-company-logo">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" alt="Google" className="company-logo" />
+                </div>
                 <h3>UX: Empathize, Ideate</h3>
                 <div className="cert-issuer">Google - Coursera</div>
                 <a href="https://coursera.org/share/1f2bf0120d747c940fa0e0a659eaba19" target="_blank" rel="noopener noreferrer" className="cert-link">View Certificate</a>
               </div>
               <div className="certification-item">
+                <div className="cert-company-logo">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg" alt="Microsoft" className="company-logo" />
+                </div>
                 <h3>UI/UX Summer Camp</h3>
                 <div className="cert-issuer">Sprints - Microsoft</div>
                 <a href="https://sprints.ai/en-eg/journeys/learning/ID%20-%20SPR%20-%206A2VR8/view-certificate-serial" target="_blank" rel="noopener noreferrer" className="cert-link">View Certificate</a>
               </div>
               <div className="certification-item">
+                <div className="cert-company-logo">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/7/77/Meta_Platforms_Inc._logo.svg" alt="Meta" className="company-logo" />
+                </div>
                 <h3>Intro to Front-End Dev</h3>
                 <div className="cert-issuer">Meta - Coursera</div>
                 <a href="https://coursera.org/share/8c06891f1cb579c94c3b0932c68d78f2" target="_blank" rel="noopener noreferrer" className="cert-link">View Certificate</a>
               </div>
               <div className="certification-item">
+                <div className="cert-company-logo">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" alt="Google" className="company-logo" />
+                </div>
                 <h3>Fundamentals of Digital Marketing</h3>
                 <div className="cert-issuer">Google Digital Garage</div>
                 <a href="https://drive.google.com/file/d/1ZJLhVsMHGZC6EuKQkvEgLh1_iyHKYnyO/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="cert-link">View Certificate</a>
               </div>
               <div className="certification-item">
+                <div className="cert-company-logo">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/a/ad/HP_logo_2012.svg" alt="HP" className="company-logo" />
+                </div>
                 <h3>Social Media Marketing</h3>
                 <div className="cert-issuer">HP LIFE</div>
                 <a href="https://www.life-global.org/certificate/7345c0df-b6dc-4503-a1ee-22f40c7432cb" target="_blank" rel="noopener noreferrer" className="cert-link">View Certificate</a>
+              </div>
+              <div className="certification-item">
+                <div className="cert-company-logo">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/7/77/Meta_Platforms_Inc._logo.svg" alt="Meta" className="company-logo" />
+                </div>
+                <h3>Advanced React</h3>
+                <div className="cert-issuer">Meta - Coursera</div>
+                <a href="#" target="_blank" rel="noopener noreferrer" className="cert-link">View Certificate</a>
               </div>
             </div>
           </div>

@@ -187,7 +187,6 @@ const ProjectDetail = () => {
         { url: "/assets/Sprints sumer/final ui/prototype.gif", alt: "Interactive Prototype Demo", caption: "Interactive prototype walkthrough showing key user flows and micro-interactions" },
         { url: "https://www.figma.com/proto/wy0AgvGAbyRqwCATL0vUtF/Demoblaze?page-id=6%3A652&node-id=6-870&p=f&viewport=-86%2C135%2C0.11&t=ld65DWeVebogiI7G-1&scaling=scale-down-width&content-scaling=fixed&starting-point-node-id=6%3A870", alt: "Figma Prototype Link", caption: "Click to view the interactive Figma prototype with all user flows and interactions" }
       ],
-      screenshots: [],
       presentationDay: []
     },
     "amazon-eg": {
