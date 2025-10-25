@@ -6,7 +6,7 @@ const Projects = () => {
   const [showScrollTop, setShowScrollTop] = useState(false);
   
   const projects = [
-    // Full-Stack Development Projects
+    // Most Important Projects (Leadership & Impact)
     {
       id: "externit",
       title: "ExternIT",
@@ -27,7 +27,7 @@ const Projects = () => {
       link: null,
       github: null
     },
-    // UI/UX Design Projects
+    // High-Impact UI/UX Projects
     {
       id: "demoblaze",
       title: "Sprints Summer Camp",
@@ -41,28 +41,29 @@ const Projects = () => {
     {
       id: "amazon-eg",
       title: "Amazon.eg Homepage Redesign",
-      description: "Mobile app homepage redesign focused on improving usability, accessibility, and shopping experience. Addressed cluttered interface with better hierarchy, cleaner visuals, and clearer call-to-actions.",
-      image: "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=500&h=300&fit=crop",
+      description: "Amazon Egypt is one of the leading e-commerce platforms, but its mobile app had usability issues that impacted the shopping experience. The app's cluttered interface, poor visual hierarchy, and inconsistent design elements made navigation difficult.",
+      image: "/assets/Amazon/final UI.png",
       tags: ["Figma", "Mobile Design", "User Research", "Usability Testing"],
       category: "UI/UX Design",
       link: null,
       github: null
     },
+    // Specialized UI/UX Projects
     {
       id: "aast-app",
-      title: "AAST App Redesign",
-      description: "UX case study redesigning the AAST mobile app to simplify navigation and integrate attendance tracking. Improved information structure and enhanced usability based on user research.",
-      image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=500&h=300&fit=crop",
-      tags: ["Figma", "Mobile UX", "User Research", "Case Study"],
+      title: "AAST App – Student Services & Attendance Tracker",
+      description: "AAST is a mobile app designed to help Arab Academy for Science and Technology (AAST) students manage university services efficiently. This case study focuses on improving the navigation, usability, and attendance tracking within the app.",
+      image: "/assets/Aast/before and after/after.png",
+      tags: ["Figma", "Mobile UX", "User Research", "Case Study", "Student Services"],
       category: "UI/UX Design",
       link: null,
       github: null
     },
     {
       id: "evently",
-      title: "Evently - Event Planning App",
-      description: "Mobile app designed to simplify event planning and management. Features clean interface with personalized feeds, simple event creation, and calendar integration for improved user engagement.",
-      image: "https://images.unsplash.com/photo-1558655146-d09347e92766?w=500&h=300&fit=crop",
+      title: "Evently – Event Planning & Management App",
+      description: "Evently is a mobile application designed to simplify the process of planning and managing events. This case study focuses on enhancing user engagement, streamlining event creation, and providing intuitive navigation for users.",
+      image: "/assets/Evently/Final ui/feed.png",
       tags: ["Figma", "Mobile App", "UI Design", "User Research"],
       category: "UI/UX Design",
       link: null,

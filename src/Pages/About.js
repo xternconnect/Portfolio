@@ -3,28 +3,28 @@ import React from 'react';
 const About = () => {
   const timeline = [
     {
-      year: "2025",
+      year: "Apr. 2025 – Sept. 2025",
       title: "UI/UX Intern",
-      company: "USAM - EdTech Platform",
-      description: "Completed onboarding sessions and collaborated on redesigning company website. Worked with team on user experience improvements for Arab students and professionals."
+      company: "USAM – An EdTech and career platform for Arab students and professionals (Remote)",
+      description: "Completed two onboarding sessions focused on personal development and company operations. Worked collaboratively with the team on redesigning a company website set to launch soon."
     },
     {
-      year: "2025",
+      year: "Apr. 2025 – Sept. 2025",
       title: "Freelance Full-Stack Developer",
-      company: "Casa.kt - Furniture Manufacturing",
-      description: "Developed complete desktop application using Electron, React, and Node.js with MongoDB. Created professional PDF reports and streamlined business workflows."
+      company: "Casa.kt – Furniture and Kitchen Manufacturing (Hybrid: Maadi / Remote)",
+      description: "Developed a complete desktop application using Electron, React, and Node.js with MongoDB integration. Created professional PDF reports integrating component details, client information, and product images. Analyzed business processes and requirements, then translated them into tailored technical solutions that streamlined workflows."
     },
     {
-      year: "2024-2025",
+      year: "Feb. 2024 – Jul. 2025",
       title: "Project Lead",
-      company: "ExternIT - Graduation Project",
-      description: "Led task outsourcing platform development from concept to implementation. Coordinated team tasks, managed project lifecycle including market research, UI/UX design, development, and testing."
+      company: "ExternIT – Graduation Project",
+      description: "Led and managed the project from concept to implementation, coordinating tasks among team members and ensuring timely delivery. A task outsourcing platform connecting university students with companies for freelance-style work opportunities. Contributed across the full project lifecycle including market research, UI/UX design, development, and testing."
     },
     {
-      year: "2021-2025",
+      year: "Sept. 2021 – Aug. 2025",
       title: "Bachelor Student",
-      company: "AASTMT - Business Information Systems",
-      description: "Graduated with Bachelor's degree in Business Information Systems. Focused on digital innovation, user-centric design, and full-stack development."
+      company: "Arab Academy For Science, Technology — Sheraton Campus",
+      description: "Bachelor of Business Information Systems. Graduated with focus on digital innovation, user-centric design, and full-stack development."
     }
   ];
 
@@ -153,6 +153,16 @@ const About = () => {
                 <h3>Intro to Front-End Dev</h3>
                 <div className="cert-issuer">Meta - Coursera</div>
                 <a href="https://coursera.org/share/8c06891f1cb579c94c3b0932c68d78f2" target="_blank" rel="noopener noreferrer" className="cert-link">View Certificate</a>
+              </div>
+              <div className="certification-item">
+                <h3>Fundamentals of Digital Marketing</h3>
+                <div className="cert-issuer">Google Digital Garage</div>
+                <a href="https://drive.google.com/file/d/1ZJLhVsMHGZC6EuKQkvEgLh1_iyHKYnyO/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="cert-link">View Certificate</a>
+              </div>
+              <div className="certification-item">
+                <h3>Social Media Marketing</h3>
+                <div className="cert-issuer">HP LIFE</div>
+                <a href="https://www.life-global.org/certificate/7345c0df-b6dc-4503-a1ee-22f40c7432cb" target="_blank" rel="noopener noreferrer" className="cert-link">View Certificate</a>
               </div>
             </div>
           </div>

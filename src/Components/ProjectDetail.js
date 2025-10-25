@@ -92,19 +92,28 @@ const ProjectDetail = () => {
         "Implementing Arabic text rendering with RTL support in PDFs",
         "Designing flexible component-based product specification system",
         "Creating seamless Electron app with automatic server startup",
-        "Developing complete bilingual translation system"
+        "Implementing secure image upload and storage system",
+        "Developing complete translation system with language switching",
+        "Building client-side PDF generation with Arabic support",
+        "Managing complex data structures for component-based products"
       ],
       solutions: [
         "Implemented proper RTL support and Arabic font rendering in PDFs",
         "Designed flexible product specification system with 6 component types",
         "Created seamless Electron app with automatic server startup",
-        "Developed complete translation system with language switching"
+        "Implemented secure file upload with validation and storage",
+        "Developed complete translation system with language switching",
+        "Built client-side PDF generation with Arabic support using jsPDF",
+        "Used MongoDB with Mongoose for efficient data management"
       ],
       results: [
         "Streamlined order processing for furniture manufacturing businesses",
         "Reduced manual work through automated PDF generation",
+        "Improved accuracy with component-based product specifications",
         "Enhanced customer service with professional bilingual reports",
-        "Created scalable database architecture for future enhancements"
+        "Provided offline capability for businesses with limited internet access",
+        "Created scalable database architecture for future enhancements",
+        "Implemented secure authentication and file management system"
       ],
       screenshots: [
         { url: "/assets/casa kt/homepage.png", alt: "Casa.kt Homepage", caption: "Main dashboard showing the application overview and navigation" },
@@ -116,71 +125,42 @@ const ProjectDetail = () => {
       ],
       presentationDay: []
     },
-    "demoblaze": {
-      id: "demoblaze",
-      title: "Sprints Summer Camp",
-      category: "UI/UX Design",
-      description: "Redesigned DemoBlaze tech e-commerce website as part of Sprints x Microsoft Summer UI/UX Camp. Improved user experience by identifying key usability issues and creating a modern, user-centered redesign with interactive flows.",
-      longDescription: "As part of the Sprints x Microsoft Summer UI/UX Camp, I worked on redesigning the DemoBlaze tech e-commerce website. The goal was to improve the overall user experience by identifying key usability issues using Jakob Nielsen's heuristics, conducting usability testing with 5 users, and proposing a modern, user-centered redesign with interactive flows and a complete UI system.",
-      image: "/assets/Sprints sumer/project img.png",
+     "demoblaze": {
+       id: "demoblaze",
+       title: "Sprints Summer Camp",
+       category: "UI/UX Design",
+       description: "A comprehensive UI/UX redesign project completed during the Sprints x Microsoft Summer UI/UX Camp. Enhanced usability, visual appeal, and user experience through usability testing, wireframing, and interactive prototyping.",
+       longDescription: "A comprehensive UI/UX redesign project completed during the Sprints x Microsoft Summer UI/UX Camp. The project focused on improving user experience, visual hierarchy, and overall usability through extensive user research, wireframing, and interactive prototyping using Jakob Nielsen's heuristics and usability testing methodologies.",
+       image: "/assets/Sprints sumer/final ui/homepage.png",
        tags: ["Figma", "UI/UX Design", "E-Commerce", "Prototyping", "Sprints Camp"],
-       link: null,
-       linkText: null,
-       github: null,
-      technologies: [
-        { name: "Figma", purpose: "UI/UX design and interactive prototyping" },
-        { name: "Jakob Nielsen's Heuristics", purpose: "Identifying UI/UX problems and usability issues" },
-        { name: "Usability Testing", purpose: "Testing with 5 users to validate design decisions" },
-        { name: "Wireframing", purpose: "Creating initial layout structures and user flows" },
-        { name: "Interactive Prototyping", purpose: "Building clickable prototypes with hover states and micro-interactions" }
-      ],
-      challenges: [
-        "Lack of filtering and search functionality",
-        "Outdated UI design and poor visual hierarchy",
-        "Poor product information visibility",
-        "Creating mobile-responsive design"
-      ],
-      solutions: [
-        "Conducted usability testing with 5 users to identify pain points",
-        "Applied Jakob Nielsen's heuristics to evaluate existing interface",
-        "Created wireframes and modern UI design in Figma",
-        "Built interactive prototype with hover states and micro-interactions"
-      ],
+       technologies: [
+         { name: "Figma", purpose: "UI/UX design and prototyping" },
+         { name: "Jakob Nielsen's Heuristics", purpose: "Usability evaluation framework" },
+         { name: "Usability Testing", purpose: "User research and validation" },
+         { name: "Wireframing", purpose: "Creating initial layout structures" },
+         { name: "Interactive Prototyping", purpose: "Design validation and user testing" }
+       ],
+       challenges: [
+         "Lack of filtering and search functionality",
+         "Outdated UI design with poor visual hierarchy",
+         "Poor product information visibility",
+         "Inconsistent design elements and navigation"
+       ],
+       solutions: [
+         "Conducted usability testing with Jakob Nielsen's heuristics",
+         "Created comprehensive wireframes for all key pages",
+         "Developed interactive prototypes for user validation",
+         "Implemented improved visual hierarchy and navigation"
+       ],
        results: [
          "Improved navigation and mobile usability",
-         "Enhanced visual consistency and modern design",
-         "Created smoother shopping experience",
-         "Delivered clickable prototype and walkthrough video"
-       ],
-       uxEvaluation: [
-         { url: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&h=600&fit=crop", alt: "UX Evaluation Report", caption: "Comprehensive UX evaluation report using Jakob Nielsen's heuristics" }
-       ],
-       wireframes: [
-         { url: "/assets/Sprints sumer/wireframes/homepage.png", alt: "Homepage Wireframe", caption: "Homepage wireframe showing improved layout structure and navigation" },
-         { url: "/assets/Sprints sumer/wireframes/product listing.png", alt: "Product Listing Wireframe", caption: "Product listing page wireframe with enhanced filtering and search functionality" },
-         { url: "/assets/Sprints sumer/wireframes/product details page.png", alt: "Product Details Wireframe", caption: "Product details page wireframe with better information hierarchy and call-to-actions" },
-         { url: "/assets/Sprints sumer/wireframes/login.png", alt: "Login Wireframe", caption: "Login page wireframe with simplified authentication flow" },
-         { url: "/assets/Sprints sumer/wireframes/sign up.png", alt: "Sign Up Wireframe", caption: "Sign up page wireframe with streamlined registration process" }
-       ],
-       beforeAfter: [
-         { url: "/assets/Sprints sumer/before & after/before.png", alt: "Before - Original DemoBlaze", caption: "Original DemoBlaze interface showing outdated design and poor usability" },
-         { url: "/assets/Sprints sumer/before & after/before bottm.png", alt: "Before - Original Bottom Section", caption: "Original bottom section with cluttered layout and poor information hierarchy" },
-         { url: "/assets/Sprints sumer/before & after/after.png", alt: "After - Redesigned DemoBlaze", caption: "Redesigned interface with modern design, improved navigation, and better user experience" }
-       ],
-       finalUI: [
-         { url: "/assets/Sprints sumer/final ui/homepage.png", alt: "Final Homepage", caption: "Redesigned homepage with modern layout, improved navigation, and better visual hierarchy" },
-         { url: "/assets/Sprints sumer/final ui/product page.png", alt: "Final Product Page", caption: "Enhanced product page with better information display and improved call-to-actions" },
-         { url: "/assets/Sprints sumer/final ui/cart.png", alt: "Final Shopping Cart", caption: "Streamlined shopping cart interface with clear product information and checkout flow" },
-         { url: "/assets/Sprints sumer/final ui/checkout.png", alt: "Final Checkout", caption: "Simplified checkout process with improved form design and user guidance" },
-         { url: "/assets/Sprints sumer/final ui/login.png", alt: "Final Login", caption: "Clean login interface with better form design and user experience" },
-         { url: "/assets/Sprints sumer/final ui/signup.png", alt: "Final Sign Up", caption: "Streamlined signup process with clear form structure and validation" }
-       ],
-       prototype: [
-         { url: "/assets/Sprints sumer/final ui/prototype.gif", alt: "Prototype & Walkthrough", caption: "Interactive prototype demonstration showing user flows and micro-interactions" }
+         "Enhanced visual consistency and brand appeal",
+         "Smoother shopping experience with better product discovery",
+         "Increased user satisfaction through better UX design"
        ],
        screenshots: [],
        presentationDay: []
-    },
+     },
     "amazon-eg": {
       id: "amazon-eg",
       title: "Amazon.eg Homepage Redesign",
@@ -216,76 +196,116 @@ const ProjectDetail = () => {
       screenshots: [],
       presentationDay: []
     },
-    "aast-app": {
-      id: "aast-app",
-      title: "AAST App Redesign",
-      category: "UI/UX Design",
-      description: "UX case study redesigning the AAST mobile app to simplify navigation and integrate attendance tracking. Improved information structure and enhanced usability based on user research.",
-      longDescription: "A comprehensive UX case study focused on redesigning the AAST (Arab Academy for Science, Technology & Maritime Transport) mobile application. The project aimed to simplify navigation, integrate attendance tracking features, and improve overall information structure based on extensive user research and usability testing.",
-      image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=500&h=300&fit=crop",
-      tags: ["Figma", "Mobile UX", "User Research", "Case Study"],
-      technologies: [
-        { name: "Figma", purpose: "Mobile app design and prototyping" },
-        { name: "User Research", purpose: "Understanding student needs and pain points" },
-        { name: "Usability Testing", purpose: "Validating design solutions" },
-        { name: "Information Architecture", purpose: "Restructuring app navigation and content" }
-      ],
-      challenges: [
-        "Complex navigation structure causing user confusion",
-        "Lack of integrated attendance tracking",
-        "Poor information hierarchy and organization",
-        "Limited accessibility features"
-      ],
-      solutions: [
-        "Conducted user interviews with students and faculty",
-        "Redesigned navigation with simplified structure",
-        "Integrated attendance tracking functionality",
-        "Improved information architecture and visual hierarchy"
-      ],
-      results: [
-        "Simplified navigation and improved user flow",
-        "Enhanced attendance tracking capabilities",
-        "Better information organization and accessibility",
-        "Increased user satisfaction and engagement"
-      ],
-      screenshots: [],
-      presentationDay: []
-    },
-    "evently": {
-      id: "evently",
-      title: "Evently - Event Planning App",
-      category: "UI/UX Design",
-      description: "Mobile app designed to simplify event planning and management. Features clean interface with personalized feeds, simple event creation, and calendar integration for improved user engagement.",
-      longDescription: "Evently is a mobile application designed to simplify event planning and management for users. The app features a clean, intuitive interface with personalized feeds, streamlined event creation processes, and seamless calendar integration to enhance user engagement and simplify the event planning experience.",
-      image: "https://images.unsplash.com/photo-1558655146-d09347e92766?w=500&h=300&fit=crop",
-      tags: ["Figma", "Mobile App", "UI Design", "User Research"],
-      technologies: [
-        { name: "Figma", purpose: "Mobile app design and prototyping" },
-        { name: "User Research", purpose: "Understanding event planning user needs" },
-        { name: "UI Design", purpose: "Creating intuitive and engaging interfaces" },
-        { name: "Calendar Integration", purpose: "Seamless scheduling and event management" }
-      ],
-      challenges: [
-        "Simplifying complex event planning workflows",
-        "Creating intuitive calendar integration",
-        "Designing personalized user feeds",
-        "Ensuring cross-platform consistency"
-      ],
-      solutions: [
-        "Conducted user research with event planners and attendees",
-        "Designed streamlined event creation flow",
-        "Implemented clean and intuitive calendar interface",
-        "Created personalized feed algorithms for better engagement"
-      ],
-      results: [
-        "Simplified event planning process for users",
-        "Enhanced user engagement through personalized feeds",
-        "Improved calendar integration and scheduling",
-        "Created scalable design system for future features"
-      ],
-      screenshots: [],
-      presentationDay: []
-    }
+     "aast-app": {
+       id: "aast-app",
+       title: "AAST App – Student Services & Attendance Tracker",
+       category: "UI/UX Design",
+       description: "AAST is a mobile app designed to help Arab Academy for Science and Technology (AAST) students manage university services efficiently. This case study focuses on improving the navigation, usability, and attendance tracking within the app.",
+       longDescription: "AAST is a mobile app designed to help Arab Academy for Science and Technology (AAST) students manage university services efficiently. This case study focuses on improving the navigation, usability, and attendance tracking within the app. Students struggled with disorganized services and no way to track attendance. The goal was to simplify service navigation and integrate an attendance tracker.",
+       image: "/assets/Aast/before and after/after.png",
+       tags: ["Figma", "Mobile UX", "User Research", "Case Study", "Student Services"],
+       technologies: [
+         { name: "Figma", purpose: "Mobile app design and prototyping" },
+         { name: "User Research", purpose: "Understanding student needs and pain points through surveys and interviews" },
+         { name: "Usability Testing", purpose: "Validating design solutions with real users" },
+         { name: "Information Architecture", purpose: "Restructuring app navigation and content organization" }
+       ],
+       challenges: [
+         "Hard-to-find services in disorganized structure",
+         "No attendance system for students to track their attendance",
+         "Unclear layout with poor information hierarchy",
+         "Overwhelming design with high cognitive load"
+       ],
+       solutions: [
+         "Conducted surveys and interviews to understand user confusion",
+         "Redesigned navigation with clear service categories (Academic, Financial, etc.)",
+         "Integrated attendance tracking functionality with detailed views",
+         "Improved visual hierarchy and reduced cognitive load"
+       ],
+       results: [
+         "Significantly improved usability - students found it clearer and faster to navigate",
+         "Enhanced attendance tracking capabilities with detailed views",
+         "Better information organization with categorized services",
+         "Reduced confusion and saved time for students"
+       ],
+       beforeAfter: [
+         { url: "/assets/Aast/before and after/before.png", alt: "Before - Original AAST App", caption: "All services were shown in a long, unorganized vertical list. No categories or grouping – made it hard to find specific features. High cognitive load due to lack of structure." },
+         { url: "/assets/Aast/before and after/after.png", alt: "After - Redesigned AAST App", caption: "Services are grouped into clear categories (Academic, Financial, etc.). Cleaner layout improves scannability and user focus. New/important features (e.g., Attendance Tracker) are visually highlighted. Easier and faster navigation with reduced mental effort." }
+       ],
+       attendanceTracker: [
+         { url: "/assets/Aast/attendace tracker/attendace tracker taps closed.png", alt: "Attendance Tracker - Closed", caption: "Attendance tracker interface showing closed tabs for easy access to attendance information" },
+         { url: "/assets/Aast/attendace tracker/detailed attendace.png", alt: "Detailed Attendance View", caption: "Detailed attendance view showing comprehensive attendance tracking and statistics for students" }
+       ],
+       screenshots: [],
+       presentationDay: []
+     },
+     "evently": {
+       id: "evently",
+       title: "Evently – Event Planning & Management App",
+       category: "UI/UX Design",
+       description: "Evently is a mobile application designed to simplify the process of planning and managing events. This case study focuses on enhancing user engagement, streamlining event creation, and providing intuitive navigation for users.",
+       longDescription: "Evently is a mobile application designed to simplify the process of planning and managing events. This case study focuses on enhancing user engagement, streamlining event creation, and providing intuitive navigation for users. Through surveys and interviews, we discovered that users desired a straightforward event creation process and easy access to event details and updates.",
+       image: "/assets/Evently/Final ui/feed.png",
+       tags: ["Figma", "Mobile App", "UI Design", "User Research"],
+       technologies: [
+         { name: "Figma", purpose: "Mobile app design and prototyping" },
+         { name: "User Research", purpose: "Understanding event planning user needs" },
+         { name: "UI Design", purpose: "Creating intuitive and engaging interfaces" },
+         { name: "Calendar Integration", purpose: "Seamless scheduling and event management" }
+       ],
+       challenges: [
+         "Users found existing event planning tools to be cluttered and unintuitive",
+         "Leading to frustration and decreased usage",
+         "Need for straightforward event creation process",
+         "Requirement for easy access to event details and updates"
+       ],
+       solutions: [
+         "Design a user-friendly interface that allows seamless event creation",
+         "Implement management and participation tracking features",
+         "Create personalized and interest-driven feed system",
+         "Add calendar integration and external ticket links for improved planning"
+       ],
+       results: [
+         "The Evently app successfully streamlined event discovery by offering users a personalized and interest-driven feed",
+         "Users found it easier to find relevant events, thanks to the onboarding and content curation process",
+         "The addition of calendar integration and external ticket links improved planning and accessibility",
+         "Enhanced user engagement and made the event experience smoother and more actionable"
+       ],
+       wireframes: [
+         { url: "/assets/Evently/wireframes/select your interst.png", alt: "Wireframe 1: Select Your Interests", caption: "Wireframe showing the interest selection process for personalized event recommendations" },
+         { url: "/assets/Evently/wireframes/Personlized feed.png", alt: "Wireframe 2: Personalized Feed", caption: "Wireframe of the personalized feed showing curated events based on user interests" },
+         { url: "/assets/Evently/wireframes/Event details.png", alt: "Wireframe 3: Event Details", caption: "Wireframe of the event details page with comprehensive event information" },
+         { url: "/assets/Evently/wireframes/Calender intgration.png", alt: "Wireframe 4: Calendar Integration", caption: "Wireframe showing calendar integration for seamless event scheduling" }
+       ],
+       finalUI: [
+         { url: "/assets/Evently/Final ui/Select you intrest.png", alt: "Final UI: Select Your Interests", caption: "Final design of the interest selection interface with improved visual hierarchy" },
+         { url: "/assets/Evently/Final ui/feed.png", alt: "Final UI: Personalized Feed", caption: "Final design of the personalized feed with enhanced user experience" },
+         { url: "/assets/Evently/Final ui/Event details.png", alt: "Final UI: Event Details", caption: "Final design of the event details page with clear information architecture" },
+         { url: "/assets/Evently/Final ui/Calender integration.png", alt: "Final UI: Calendar Integration", caption: "Final design of the calendar integration feature for seamless scheduling" }
+       ],
+       userPersona: [
+         { 
+           url: "/assets/Evently/user persona/User Persona Example.png", 
+           alt: "User Persona Example", 
+           caption: "User persona created through research to understand target audience needs and behaviors.",
+           needs: [
+             "A quick glance to check what events are happening today or this week",
+             "Simple access to external ticket links without creating an account or logging in",
+             "A way to add events to Google Calendar or Apple Calendar with one tap",
+             "Clean, uncluttered UI that focuses only on essential event info",
+             "Trust that the event info is accurate and up-to-date"
+           ],
+           painPoints: [
+             "Clunky event platforms overloaded with irrelevant features",
+             "Too many steps just to find a ticket link or calendar integration",
+             "Apps that force sign-ups or accounts to access basic event details",
+             "Hard to find reliable, centralized listings for niche/local events"
+           ]
+         }
+       ],
+       screenshots: [],
+       presentationDay: []
+     }
   };
 
   // Scroll to top functionality
@@ -412,32 +432,79 @@ const ProjectDetail = () => {
             </section>
           )}
 
-          {/* Results */}
+           {/* Results */}
            {project.results && project.results.length > 0 && (
-            <section id="results" className="project-section">
-              <h2>Results</h2>
-              <ul className="results-list">
-                {project.results.map((result, index) => (
-                  <li key={index}>{result}</li>
-                ))}
-              </ul>
-            </section>
-          )}
+             <section id="results" className="project-section">
+               <h2>Results</h2>
+               <ul className="results-list">
+                 {project.results.map((result, index) => (
+                   <li key={index}>{result}</li>
+                 ))}
+               </ul>
+             </section>
+           )}
 
-           {/* UX Evaluation */}
-           {project.uxEvaluation && project.uxEvaluation.length > 0 && (
-             <section id="ux-evaluation" className="project-section">
-               <h2>UX Evaluation</h2>
-               <p style={{ marginBottom: '20px', fontSize: '16px', lineHeight: '1.6' }}>
-                 This is the first step in the design process. I used Jakob Nielsen's Heuristics to systematically identify UI/UX problems and usability issues on the DemoBlaze website. This comprehensive evaluation helped uncover key pain points that were affecting user experience, including lack of filtering functionality, outdated design elements, and poor information hierarchy.
-               </p>
-               <p style={{ marginBottom: '30px', fontSize: '16px', lineHeight: '1.6' }}>
-                 The evaluation process involved analyzing the website against Nielsen's 10 usability principles and conducting usability testing with 5 users to validate findings and gather additional insights.
-               </p>
-               <div className="project-links" style={{ marginBottom: '20px', textAlign: 'center' }}>
-                 <a href="https://docs.google.com/document/d/1vosenaslkN4MAIMgiop_rUfNBqGMZJJ-rq29gyNm_eY/edit?usp=sharing" target="_blank" rel="noopener noreferrer" className="btn btn-primary">
-                   View UX Evaluation Report
-                 </a>
+           {/* User Persona */}
+           {project.userPersona && project.userPersona.length > 0 && (
+             <section id="user-persona" className="project-section">
+               <h2>User Persona</h2>
+               <div style={{ display: 'flex', alignItems: 'flex-start', gap: '40px', flexWrap: 'wrap' }}>
+                 {project.userPersona.map((persona, index) => (
+                   <div key={index} style={{ display: 'flex', alignItems: 'flex-start', gap: '40px', width: '100%' }}>
+                     <div style={{ flex: '1', minWidth: '300px' }}>
+                       <img 
+                         src={persona.url} 
+                         alt={persona.alt}
+                         onClick={() => setSelectedImage(persona)}
+                         style={{ 
+                           width: '100%', 
+                           height: 'auto', 
+                           borderRadius: '10px',
+                           cursor: 'pointer',
+                           boxShadow: '0 4px 15px rgba(0,0,0,0.1)'
+                         }}
+                       />
+                     </div>
+                     <div style={{ flex: '1', minWidth: '300px' }}>
+                       <h3 style={{ marginBottom: '20px', fontSize: '24px', fontWeight: 'bold', color: 'white' }}>
+                         {persona.alt}
+                       </h3>
+                       <p style={{ fontSize: '16px', lineHeight: '1.6', color: 'white', marginBottom: '25px' }}>
+                         {persona.caption}
+                       </p>
+                       
+                       {persona.needs && persona.needs.length > 0 && (
+                         <div style={{ marginBottom: '25px' }}>
+                           <h4 style={{ fontSize: '18px', fontWeight: 'bold', color: 'white', marginBottom: '15px' }}>
+                             Needs
+                           </h4>
+                           <ul style={{ paddingLeft: '20px', margin: '0' }}>
+                             {persona.needs.map((need, needIndex) => (
+                               <li key={needIndex} style={{ fontSize: '16px', lineHeight: '1.6', color: 'white', marginBottom: '8px' }}>
+                                 {need}
+                               </li>
+                             ))}
+                           </ul>
+                         </div>
+                       )}
+                       
+                       {persona.painPoints && persona.painPoints.length > 0 && (
+                         <div>
+                           <h4 style={{ fontSize: '18px', fontWeight: 'bold', color: 'white', marginBottom: '15px' }}>
+                             Pain Points
+                           </h4>
+                           <ul style={{ paddingLeft: '20px', margin: '0' }}>
+                             {persona.painPoints.map((painPoint, painIndex) => (
+                               <li key={painIndex} style={{ fontSize: '16px', lineHeight: '1.6', color: 'white', marginBottom: '8px' }}>
+                                 {painPoint}
+                               </li>
+                             ))}
+                           </ul>
+                         </div>
+                       )}
+                     </div>
+                   </div>
+                 ))}
                </div>
              </section>
            )}
@@ -446,15 +513,25 @@ const ProjectDetail = () => {
            {project.wireframes && project.wireframes.length > 0 && (
              <section id="wireframes" className="project-section">
                <h2>Wireframes</h2>
-               <div className="screenshots-grid">
+               <div style={{ display: 'flex', gap: '20px', flexWrap: 'wrap', justifyContent: 'center' }}>
                  {project.wireframes.map((wireframe, index) => (
-                   <div key={index} className="screenshot-item">
+                   <div key={index} style={{ flex: '1', minWidth: '250px', maxWidth: '400px', textAlign: 'center' }}>
                      <img 
                        src={wireframe.url} 
                        alt={wireframe.alt}
                        onClick={() => setSelectedImage(wireframe)}
+                       style={{ 
+                         width: '100%', 
+                         height: 'auto', 
+                         borderRadius: '10px',
+                         cursor: 'pointer',
+                         boxShadow: '0 4px 15px rgba(0,0,0,0.1)',
+                         marginBottom: '15px'
+                       }}
                      />
-                     <p className="screenshot-caption">{wireframe.caption}</p>
+                     <p style={{ fontSize: '16px', lineHeight: '1.6', color: '#666', margin: '0' }}>
+                       {wireframe.caption}
+                     </p>
                    </div>
                  ))}
                </div>
@@ -465,15 +542,57 @@ const ProjectDetail = () => {
            {project.beforeAfter && project.beforeAfter.length > 0 && (
              <section id="before-after" className="project-section">
                <h2>Before/After</h2>
-               <div className="screenshots-grid">
+               <div style={{ display: 'flex', gap: '20px', flexWrap: 'wrap', justifyContent: 'center' }}>
                  {project.beforeAfter.map((comparison, index) => (
-                   <div key={index} className="screenshot-item">
+                   <div key={index} style={{ flex: '1', minWidth: '250px', maxWidth: '400px', textAlign: 'center' }}>
                      <img 
                        src={comparison.url} 
                        alt={comparison.alt}
                        onClick={() => setSelectedImage(comparison)}
+                       style={{ 
+                         width: '100%', 
+                         height: 'auto', 
+                         borderRadius: '10px',
+                         cursor: 'pointer',
+                         boxShadow: '0 4px 15px rgba(0,0,0,0.1)',
+                         marginBottom: '15px'
+                       }}
                      />
-                     <p className="screenshot-caption">{comparison.caption}</p>
+                     <h3 style={{ marginBottom: '10px', fontSize: '18px', fontWeight: 'bold' }}>
+                       {comparison.alt}
+                     </h3>
+                     <p style={{ fontSize: '16px', lineHeight: '1.6', color: '#666', textAlign: 'left' }}>
+                       {comparison.caption}
+                     </p>
+                   </div>
+                 ))}
+               </div>
+             </section>
+           )}
+
+           {/* Attendance Tracker Feature */}
+           {project.attendanceTracker && project.attendanceTracker.length > 0 && (
+             <section id="attendance-tracker" className="project-section">
+               <h2>Attendance Tracker Feature</h2>
+               <div style={{ display: 'flex', gap: '20px', flexWrap: 'wrap', justifyContent: 'center' }}>
+                 {project.attendanceTracker.map((tracker, index) => (
+                   <div key={index} style={{ flex: '1', minWidth: '250px', maxWidth: '400px', textAlign: 'center' }}>
+                     <img 
+                       src={tracker.url} 
+                       alt={tracker.alt}
+                       onClick={() => setSelectedImage(tracker)}
+                       style={{ 
+                         width: '100%', 
+                         height: 'auto', 
+                         borderRadius: '10px',
+                         cursor: 'pointer',
+                         boxShadow: '0 4px 15px rgba(0,0,0,0.1)',
+                         marginBottom: '15px'
+                       }}
+                     />
+                     <p style={{ fontSize: '16px', lineHeight: '1.6', color: '#666', margin: '0' }}>
+                       {tracker.caption}
+                     </p>
                    </div>
                  ))}
                </div>
@@ -484,68 +603,32 @@ const ProjectDetail = () => {
            {project.finalUI && project.finalUI.length > 0 && (
              <section id="final-ui" className="project-section">
                <h2>Final UI</h2>
-               <div className="screenshots-grid">
+               <div style={{ display: 'flex', gap: '20px', flexWrap: 'wrap', justifyContent: 'center' }}>
                  {project.finalUI.map((ui, index) => (
-                   <div key={index} className="screenshot-item">
+                   <div key={index} style={{ flex: '1', minWidth: '250px', maxWidth: '400px', textAlign: 'center' }}>
                      <img 
                        src={ui.url} 
                        alt={ui.alt}
                        onClick={() => setSelectedImage(ui)}
+                       style={{ 
+                         width: '100%', 
+                         height: 'auto', 
+                         borderRadius: '10px',
+                         cursor: 'pointer',
+                         boxShadow: '0 4px 15px rgba(0,0,0,0.1)',
+                         marginBottom: '15px'
+                       }}
                      />
-                     <p className="screenshot-caption">{ui.caption}</p>
+                     <p style={{ fontSize: '16px', lineHeight: '1.6', color: '#666', margin: '0' }}>
+                       {ui.caption}
+                     </p>
                    </div>
                  ))}
                </div>
              </section>
            )}
 
-           {/* Prototype & Walkthrough */}
-           {project.prototype && project.prototype.length > 0 && (
-             <section id="prototype" className="project-section">
-               <h2>Prototype & Walkthrough</h2>
-               <div style={{ 
-                 display: 'flex', 
-                 alignItems: 'center', 
-                 gap: '40px', 
-                 marginTop: '20px',
-                 flexWrap: 'wrap'
-               }}>
-                 <div style={{ flex: '1', minWidth: '300px' }}>
-                   {project.prototype.map((prototype, index) => (
-                     <div key={index} style={{ textAlign: 'center' }}>
-                       <img 
-                         src={prototype.url} 
-                         alt={prototype.alt}
-                         onClick={() => setSelectedImage(prototype)}
-                         style={{ 
-                           maxWidth: '100%', 
-                           height: 'auto', 
-                           borderRadius: '10px',
-                           cursor: 'pointer',
-                           boxShadow: '0 4px 15px rgba(0,0,0,0.1)'
-                         }}
-                       />
-                       <p style={{ marginTop: '10px', fontSize: '14px', color: '#666' }}>
-                         {prototype.caption}
-                       </p>
-                     </div>
-                   ))}
-                 </div>
-                 <div style={{ flex: '1', minWidth: '300px' }}>
-                   <p style={{ marginBottom: '20px', fontSize: '16px', lineHeight: '1.6' }}>
-                     Experience the interactive prototype that brings the redesigned DemoBlaze to life. This clickable prototype demonstrates the improved user flows, enhanced navigation, and modern interface design that resulted from our UX evaluation and redesign process.
-                   </p>
-                   <div className="project-links">
-                     <a href="https://www.figma.com/proto/wy0AgvGAbyRqwCATL0vUtF/Demoblaze?page-id=6%3A652&node-id=6-870&p=f&viewport=-86%2C135%2C0.11&t=ld65DWeVebogiI7G-1&scaling=scale-down-width&content-scaling=fixed&starting-point-node-id=6%3A870" target="_blank" rel="noopener noreferrer" className="btn btn-primary">
-                       🎬 Try Interactive Prototype
-                     </a>
-                   </div>
-                 </div>
-               </div>
-            </section>
-          )}
-
-          {/* Screenshots */}
+           {/* Screenshots */}
           {project.screenshots && project.screenshots.length > 0 && (
             <section id="screenshots" className="project-section">
               <h2>Project Screenshots</h2>
@@ -622,16 +705,16 @@ const ProjectDetail = () => {
             <span>Challenges</span>
           </button>
         )}
-        {project.results && project.results.length > 0 && (
-          <button onClick={() => scrollToSection('results')} className="nav-btn">
-            <span>📈</span>
-            <span>Results</span>
-          </button>
-        )}
-         {project.uxEvaluation && project.uxEvaluation.length > 0 && (
-           <button onClick={() => scrollToSection('ux-evaluation')} className="nav-btn">
-             <span>🔍</span>
-             <span>UX Evaluation</span>
+         {project.results && project.results.length > 0 && (
+           <button onClick={() => scrollToSection('results')} className="nav-btn">
+             <span>📈</span>
+             <span>Results</span>
+           </button>
+         )}
+         {project.userPersona && project.userPersona.length > 0 && (
+           <button onClick={() => scrollToSection('user-persona')} className="nav-btn">
+             <span>👤</span>
+             <span>User Persona</span>
            </button>
          )}
          {project.wireframes && project.wireframes.length > 0 && (
@@ -646,24 +729,24 @@ const ProjectDetail = () => {
              <span>Before/After</span>
            </button>
          )}
+         {project.attendanceTracker && project.attendanceTracker.length > 0 && (
+           <button onClick={() => scrollToSection('attendance-tracker')} className="nav-btn">
+             <span>📊</span>
+             <span>Attendance Tracker</span>
+           </button>
+         )}
          {project.finalUI && project.finalUI.length > 0 && (
            <button onClick={() => scrollToSection('final-ui')} className="nav-btn">
              <span>🎨</span>
              <span>Final UI</span>
            </button>
          )}
-         {project.prototype && project.prototype.length > 0 && (
-           <button onClick={() => scrollToSection('prototype')} className="nav-btn">
-             <span>🎬</span>
-             <span>Prototype</span>
+         {project.screenshots && project.screenshots.length > 0 && (
+           <button onClick={() => scrollToSection('screenshots')} className="nav-btn">
+             <span>🖼️</span>
+             <span>Screenshots</span>
            </button>
          )}
-         {project.screenshots && project.screenshots.length > 0 && (
-          <button onClick={() => scrollToSection('screenshots')} className="nav-btn">
-            <span>🖼️</span>
-            <span>Screenshots</span>
-          </button>
-        )}
         {project.presentationDay && project.presentationDay.length > 0 && (
           <button onClick={() => scrollToSection('presentation-day')} className="nav-btn">
             <span>🎉</span>

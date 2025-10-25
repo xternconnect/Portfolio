@@ -1,0 +1,57 @@
+Amazon.eg Homepage Redesign
+Amazon Egypt is one of the leading e-commerce platforms, but its mobile app had usability issues that impacted the shopping experience. The app's cluttered interface, poor visual hierarchy, and inconsistent design elements made navigation difficult. This case study presents a redesign of the Amazon Egypt app’s homepage to improve usability, accessibility, and overall user experience.
+
+
+
+Problem Statement
+The Amazon Egypt app homepage was cluttered, difficult to navigate, visually inconsistent, and lacked clear call-to-actions, making it hard for users to shop efficiently.
+
+
+Goal
+Streamline the interface, improve navigation, enhance visual consistency, and highlight key features like the search bar and cart to create a smoother shopping experience.
+
+Understanding the User 
+
+User Research Summary
+
+User feedback revealed frustration with a crowded homepage, unclear category organization, and difficulty locating essential features like the search bar and cart. Most users wanted a cleaner layout, faster access to frequently used sections, and a more intuitive browsing experience. The insights guided the redesign to focus on clarity, hierarchy, and ease of use.
+
+Pain points
+
+Cluttered Homepage 
+
+
+Difficult Navigation
+
+
+Inconsistent Design 
+
+
+Weak Call-to-Actions 
+
+Before/After 
+
+Before
+Cluttered Layout: Overwhelming amount of promotions and banners with no clear visual hierarchy.
+
+Small Icons: Category icons (e.g., Mobiles, Deals) are small and crowded in a horizontal scroll.
+
+Busy Backgrounds: Bright colors and overlapping elements make the interface visually noisy.
+
+Poor Readability: Text sizes vary with inconsistent spacing, making content hard to scan quickly.
+
+
+
+After 
+Cleaner Layout: Improved structure with clearly separated sections and breathing space.
+
+Prominent Categories: Main categories (e.g., Home, Mobiles, Electronics) shown as large, tappable icons.
+
+Focused Callouts: Sections like “Pick Up Where You Left Off” and “Budget Store” guide user action better.
+
+Better Visual Hierarchy: Fonts, colors, and layout create a smoother flow and easier navigation.
+
+Final UI
+
+
+See more work

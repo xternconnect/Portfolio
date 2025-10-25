@@ -1,0 +1,65 @@
+	
+
+
+Redesign – Tech E-Commerce Website (DemoBlaze) 
+As part of the Sprints x Microsoft Summer UI/UX Camp, I worked on redesigning the DemoBlaze tech e-commerce website. The goal was to improve the overall user experience by identifying key usability issues and proposing a modern, user-centered redesign with interactive flows and a complete UI system.
+
+Objectives
+Identify UI/UX problems using Jakob Nielsen’s heuristics 
+
+Conduct usability testing with 5 users
+
+Create wireframes and a modern UI in Figma
+
+Deliver a clickable prototype and walkthrough video
+
+Document user stories for major actions (Signup, Login, Cart, Purchase)
+
+
+Identified key issues 
+
+Lack of filtering and search
+
+
+Outdated UI
+
+
+Poor product info visibility
+
+View full Report
+
+Wireframes 
+
+
+
+
+
+
+Before/After 
+
+
+
+
+
+Final UI
+
+
+
+
+
+
+
+Prototype & Walkthrough 
+
+
+What I Learned
+Created an interactive prototype in Figma
+
+Added hover states and micro-interactions
+
+Recorded a walkthrough video of user flows and design decisions
+
+Figma prototype link
+
+Conclusion 
+This project helped me identify key UX issues and redesign DemoBlaze into a more user-friendly and modern e-commerce platform. Through research, testing, and prototyping, I improved navigation, mobile usability, and visual consistency leading to a smoother shopping experience.

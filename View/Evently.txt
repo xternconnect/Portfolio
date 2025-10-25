@@ -1,0 +1,55 @@
+Evently – Event Planning & Management App
+Evently is a mobile application designed to simplify the process of planning and managing events. This case study focuses on enhancing user engagement, streamlining event creation, and providing intuitive navigation for users.
+
+
+
+Problem Statement
+Users found existing event planning tools to be cluttered and unintuitive, leading to frustration and decreased usage.
+
+
+Goal
+Design a user-friendly interface that allows seamless event creation, management, and participation tracking.
+
+Understanding the User 
+
+User Research Summary 
+
+Through surveys and interviews, we discovered that users desired:
+
+A straightforward event creation process.
+
+Easy access to event details and updates.
+
+User Persona Example
+
+
+
+Wireframes
+
+Wireframe 1: Select Your Interests 
+
+
+Wireframe 2: Personalized Feed 
+
+
+Wireframe 3: Event Details 
+
+
+Wireframe 4: Calendar Integration 
+
+Final UI 
+
+
+
+
+
+Impact 
+The Evently app successfully streamlined event discovery by offering users a personalized and interest-driven feed. Users found it easier to find relevant events, thanks to the onboarding and content curation process. The addition of calendar integration and external ticket links improved planning and accessibility. Overall, it enhanced user engagement and made the event experience smoother and more actionable.
+
+
+What I Learned
+Through this project, I learned the value of simplicity and relevance in user experience. Focusing on key features like interest selection and calendar syncing showed me how targeted functionality can deliver high user value without feature overload. I also deepened my understanding of designing for real-world user habits—like wanting quick access to tickets or saving dates—which improved both my UI decisions and user flow thinking.
+
+See more work
+
+Get in touch at AbdelrahmanElshurbagy@gmail.com
