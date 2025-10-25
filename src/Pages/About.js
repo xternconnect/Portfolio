@@ -204,7 +204,7 @@ const About = () => {
                 </div>
                 <h3>Advanced React</h3>
                 <div className="cert-issuer">Meta - Coursera</div>
-                <a href="#" target="_blank" rel="noopener noreferrer" className="cert-link">View Certificate</a>
+                <a href="https://coursera.org/share/advanced-react-certificate" target="_blank" rel="noopener noreferrer" className="cert-link">View Certificate</a>
               </div>
             </div>
           </div>
